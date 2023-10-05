@@ -12,7 +12,7 @@ import Footer from './components/Footer'
 
 export default function Home() {
   return (
-   <main id="main" className='relative flex flex-col justify-center items-center gap-10 overflow-hidden'>
+   <main id="main" className='flex flex-col justify-center items-center gap-10 overflow-hidden'>
     <Particles
 				className="absolute inset-0 -z-10 animate-fade-in h-full"
 				quantity={500}
