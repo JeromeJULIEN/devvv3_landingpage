@@ -3,7 +3,7 @@ import fleetMain from "../../../public/project/fleet/fleetMain.png"
 import fleet1 from "../../../public/project/fleet/fleet1.png"
 import fleet2 from "../../../public/project/fleet/fleet2.png"
 import bctMain from "../../../public/project/blockchainteam/bctMain.png"
-import bct1 from "../../../public/project/blockchainteam/bct1.png"
+// import bct1 from "../../../public/project/blockchainteam/bct1.png"
 import mtcdMain from "../../../public/project/MTCD/mtcdMain.jpg"
 import mtcd1 from "../../../public/project/MTCD/mtcd1.png"
 import perfMain from "../../../public/project/perfConnect/perfconnectMain.png"
@@ -40,7 +40,7 @@ const projects : Project[] = [
     name: 'the blockchain team', 
     description: 'Site vitrine', 
     imageMain: bctMain,
-    image: bct1, 
+    image: bctMain, 
     detail1:"Site vitrine pour 'the blockchain team' qui propose aux artistes traditionnels un accompagnement complet pour le lancement de leur collection NFT.",
     detail2:"Présentation de l'équipe et du process. Possibilité de prise de rendez vous directement sur le site.",
     stack:["nextjs","react","tailwind"],
