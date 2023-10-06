@@ -2,6 +2,7 @@ import React from 'react'
 import Particles from './particles'
 import ts from "../../../public/logo/ts.png"
 import StackCard from './StackCard'
+import { web3Stack,blockchainStack,iosStack } from '../data/stackData'
 
 type Props = {}
 
@@ -16,23 +17,21 @@ const StackBlock = (props: Props) => {
         <p className='mt-10 text-neutral-300 font-light w-3/4 md:w-2/3 text-center'>J’utilise l’ensemble des outils les plus performants pour le développement de projet et me forme en permanence aux dernières évolutions</p>
         <h3 className='text-white text-2xl pt-10 font-semibold text-center'><span className='text-cyan-500'>FRONT-END WEB3</span> / APP DECENTRALIS&Eacute;E </h3>
         <div className='flex justify-center gap-10 flex-wrap w-full md:w-1/2'>
-            <StackCard logo={ts} name="typescript"/>
-            <StackCard logo={ts} name="typescript"/>
-            <StackCard logo={ts} name="typescript"/>
-            <StackCard logo={ts} name="typescript"/>
-            <StackCard logo={ts} name="typescript"/>
+            {web3Stack.map(soft => 
+                <StackCard key={soft.name} logo={soft.logo} name={soft.name}/>
+            )}
         </div>
         <h3 className='text-white text-2xl pt-10 font-semibold text-center'>BLOCKCHAIN / <span className='text-cyan-500'>SMART CONTRACT</span></h3>
         <div className='flex justify-center gap-10 flex-wrap w-full md:w-1/2'>
-            <StackCard logo={ts} name="typescript"/>
-            <StackCard logo={ts} name="typescript"/>
-            <StackCard logo={ts} name="typescript"/>
-            <StackCard logo={ts} name="typescript"/>
+            {blockchainStack.map(soft => 
+                <StackCard key={soft.name} logo={soft.logo} name={soft.name}/>
+            )}
         </div>
         <h3 className='text-white text-2xl pt-10 font-semibold text-center'>APPLICATION <span className='text-cyan-500'>MOBILE IOS</span></h3>
         <div className='flex justify-center gap-10 flex-wrap w-full md:w-1/2'>
-            <StackCard logo={ts} name="typescript"/>
-            <StackCard logo={ts} name="typescript"/>
+            {iosStack.map(soft => 
+                <StackCard key={soft.name} logo={soft.logo} name={soft.name}/>
+            )}
         </div>
     </div>
   )
