@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
 import profilPic from "../../../public/profilPic.png"
-import linkedin from "../../../public/logo/linkedin.png"
 import SocialNetworkCard from './SocialNetworkCard'
 import MeetingButton from './MeetingButton'
 import Footer from './Footer'

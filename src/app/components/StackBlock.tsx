@@ -1,6 +1,5 @@
 import React from 'react'
 import Particles from './particles'
-import ts from "../../../public/logo/ts.png"
 import StackCard from './StackCard'
 import { web3Stack,blockchainStack,iosStack } from '../data/stackData'
 

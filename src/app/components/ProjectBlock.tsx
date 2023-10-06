@@ -1,5 +1,4 @@
 import React from 'react'
-import fleet from '../../../public/fleet.png'
 import ProjectCard from './ProjectCard'
 import projects from '../data/projectData'
 

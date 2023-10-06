@@ -1,7 +1,6 @@
 import React, { useRef } from 'react'
 import Particles from './particles'
 import Image from 'next/image'
-import devvv3 from "../../../public/devvv3.png"
 import downArrow from "../../../public/downArrow.png"
 import InlineText from './InlineText'
 import dev from "../../../public/logo_dev.png"

@@ -1,7 +1,5 @@
 'use client'
 import React from 'react'
-import arrow from "../../../../public/downArrow.png"
-import Image from 'next/image'
 import { useRouter } from 'next/navigation'
 
 type Props = {
