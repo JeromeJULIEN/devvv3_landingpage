@@ -43,7 +43,7 @@ const projects : Project[] = [
     name: 'the blockchain team', 
     description: 'Site vitrine', 
     imageMain: bctMain,
-    image: bct1, 
+    image: bct, 
     detail1:"Site vitrine pour 'the blockchain team' qui propose aux artistes traditionnels un accompagnement complet pour le lancement de leur collection NFT.",
     detail2:"Présentation de l'équipe et du process. Possibilité de prise de rendez vous directement sur le site.",
     stack:["nextjs","react","tailwind"],

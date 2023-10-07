@@ -18,7 +18,7 @@ const ProfileBlock = (props: Props) => {
         Nous combinons notre expertise technique avec notre expérience en gestion de projets et en recherche & développement pour créer les applications de demain.
         </p>
         <h3 className='text-xl font-semibold text-center tracking-widest'>BAS&Eacute; SUR <span className='text-cyan-500'>MARSEILLE, FRANCE</span></h3>
-        <h2 className='text-3xl md:text-4xl font-semibold text-center mt-10'>&lt; L'EQUIPE /&gt;</h2>
+        <h2 className='text-3xl md:text-4xl font-semibold text-center mt-10'>&lt; L&apos;EQUIPE /&gt;</h2>
         <div className='flex flex-col gap-4 justify-center items-center'>
             <div className='flex gap-4 items-center'>
                 <Image src={profilPic} alt="profil picture" width={100} className='rounded-full w-30 sm:w-40'/>

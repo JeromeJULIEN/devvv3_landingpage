@@ -44,7 +44,7 @@ const WelcomeBlock = (props: Props) => {
             <InlineText direction={1}/>
             <InlineText direction={-2} />
         </div>
-        <p className='mt-10 text-neutral-300 font-light w-3/4 md:w-2/3 text-center'>Chez devvv3, nous sommes spécialisés en développement fullstack web3 et iOS. Notre équipe est dédiée à donner vie à vos projets, qu'il s'agisse d'un accompagnement global ou d'une expertise ciblée.</p>
+        <p className='mt-10 text-neutral-300 font-light w-3/4 md:w-2/3 text-center'>Chez devvv3, nous sommes spécialisés en développement fullstack web3 et iOS. Notre équipe est dédiée à donner vie à vos projets, qu&apos;il s&apos;agisse d&apos;un accompagnement global ou d&apos;une expertise ciblée.</p>
         <p className='text-neutral-300 font-bold w-3/4 md:w-2/3 text-center'>Smart contract | front-end web3 | marketplace | actif numérique | app mobile ios</p>
         <p className='text-neutral-300  font-light md:w-2/3 text-center'>Une idée ? Une question ? Parlons-en !</p>
         <MeetingButton/>
