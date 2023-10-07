@@ -3,12 +3,15 @@ import fleetMain from "../../../public/project/fleet/fleetMain.png"
 import fleet1 from "../../../public/project/fleet/fleet1.png"
 import fleet2 from "../../../public/project/fleet/fleet2.png"
 import bctMain from "../../../public/project/blockchainteam/bctMain.png"
-// import bct1 from "../../../public/project/blockchainteam/bct1.png"
+import bct1 from "../../../public/project/blockchainteam/bct1.png"
 import mtcdMain from "../../../public/project/MTCD/mtcdMain.jpg"
 import mtcd1 from "../../../public/project/MTCD/mtcd1.png"
 import perfMain from "../../../public/project/perfConnect/perfconnectMain.png"
 import perf1 from "../../../public/project/perfConnect/perfConnect1.png"
 import perf2 from "../../../public/project/perfConnect/perfConnect2.png"
+import collectionChainMain from "../../../public/project/collectorChain/collectorChainMain.png"
+import collectionChain1 from "../../../public/project/collectorChain/collectorChain1.png"
+import collectionChain2 from "../../../public/project/collectorChain/collectorChain2.png"
 
 
 interface Project {
@@ -40,11 +43,22 @@ const projects : Project[] = [
     name: 'the blockchain team', 
     description: 'Site vitrine', 
     imageMain: bctMain,
-    image: bctMain, 
+    image: bct1, 
     detail1:"Site vitrine pour 'the blockchain team' qui propose aux artistes traditionnels un accompagnement complet pour le lancement de leur collection NFT.",
     detail2:"Présentation de l'équipe et du process. Possibilité de prise de rendez vous directement sur le site.",
     stack:["nextjs","react","tailwind"],
     link:"https://blockchain-team-commercial-page.vercel.app/"
+    },
+    { slug: 'collector-chain', 
+    name: 'Collector chain', 
+    description: 'Tokenisation and fractionalisation of physical collectibles', 
+    imageMain: collectionChainMain,
+    image: collectionChain1,
+    secondImage : collectionChain2, 
+    detail1:"With Collector Chain, create, buy and sell digitalized and fractionated physical collectibles. Collector Chain is a platform which ease your collector hobby thanks to shares fractionalization",
+    detail2:"Anyone can ask for fractionalisation of any object. The curation and valuation are done by experts. Moreover, by acquiring real ownership shares of the object instead of the real object, collect is becoming more sustainable by avoiding new object production pressure",
+    stack:["create react app","react","typescript","solidity","hardhat"],
+    link:"https://collector-chain-alpha.vercel.app//"
     },
     { slug: 'confidential-client', 
     name: 'client confidentiel', 
