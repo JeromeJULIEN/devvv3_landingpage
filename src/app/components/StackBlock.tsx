@@ -13,7 +13,7 @@ const StackBlock = (props: Props) => {
             quantity={500}
         />
         <h2 className='text-3xl md:text-4xl font-semibold text-white text-center'>&lt; STACK TECHNIQUE /&gt;</h2>
-        <p className='mt-10 text-neutral-300 font-light px-4 md:w-2/3 text-center'>Chez devvv3, nous utilisons les outils les plus avancés pour le développement de projets et nous nous tenons constamment à jour avec les dernières évolutions technologiques."</p>
+        <p className='mt-10 text-neutral-300 font-light px-4 md:w-2/3 text-center'>Chez devvv3, nous utilisons les outils les plus avancés pour le développement de projets et nous nous tenons constamment à jour avec les dernières évolutions technologiques.</p>
         <h3 className='text-white text-2xl pt-10 font-semibold text-center'><span className='text-cyan-500'>FRONT-END WEB3</span> / APP DECENTRALIS&Eacute;E </h3>
         <div className='flex justify-center gap-10 flex-wrap w-full md:w-1/2'>
             {web3Stack.map(soft => 
