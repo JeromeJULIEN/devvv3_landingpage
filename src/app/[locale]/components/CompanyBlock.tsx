@@ -5,7 +5,8 @@ import SocialNetworkCard from './SocialNetworkCard'
 import MeetingButton from './MeetingButton'
 import Footer from './Footer'
 import socialData from '../data/socialData'
-import email from '../../../../public/social/email.png'
+import email from '/public/social/email.png'
+import phone from '/public/social/phone.png'
 import {useTranslations} from "next-intl"
 
 type Props = {}
@@ -40,12 +41,21 @@ const CompanyBlock = (props: Props) => {
         <h2 className='text-3xl md:text-4xl font-semibold text-center mt-10'>&lt; CONTACT /&gt;</h2>
 
         <MeetingButton/>
-        <a href="mailto:jerome.devvv3@gmail.com?subject=Prise de contract depuis le site devvv3.com" target='_blank'>
-            <div className='flex flex-col items-center justify-center gap-2 w-20'>
-                <Image src={email} alt="logo" width={50} />
-                <p className='text-xs tracking-widest text-center'>ENVOYER UN EMAIL</p>
-            </div>
-        </a>
+        <div className='flex gap-10'>
+            <a href="mailto:jerome.devvv3@gmail.com?subject=Prise de contract depuis le site devvv3.com" target='_blank'>
+                <div className='flex flex-col items-center justify-center gap-2 w-20'>
+                    <Image src={email} alt="logo" width={50} />
+                    <p className='text-xs tracking-widest text-center'>{t('email').toUpperCase()}</p>
+                </div>
+            </a>
+            <a href="tel:+33664345553">
+                <div className='flex flex-col items-center justify-center gap-2 w-20'>
+                    <Image src={phone} alt="logo" width={50} />
+                    <p className='text-xs tracking-widest text-center'>+33 6 64 34 55 53</p>
+                </div>
+            </a>
+
+        </div>
         <Footer/>
     </div>
   )

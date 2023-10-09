@@ -19,7 +19,8 @@
         "intro2": "We combine our technical expertise with our experience in project management and research & development to create the applications of tomorrow.",
         "basedIn": "based in",
         "theTeam": "the team",
-        "jeromeProfile": "Web3 and IOS developer"
+        "jeromeProfile": "Web3 and IOS developer",
+        "email": "send an email"
     },
     "Footer": {
         "copyright": "All right reserved",
@@ -27,14 +28,36 @@
     },
     "LocaleSwitcher": {
         "label": "Change language",
-        "locale": "{locale, select, fr {French} en {English} other {Unknown}}"
+        "locale": "{locale, select, fr {Français} en {English} other {Unknown}}"
     },
     "MeetingButton": {
         "text": "Book a meeting"
     },
-    "project": {
+    "projects": {
         "fleet-collective": {
-            "name": "fleet collective"
+            "name": "fleet collective",
+            "description": "NFT minting website",
+            "detail1": "Fleet collective membership card minting site. The mint is conditional on belonging to the collective's discord server as well as holding certain specific roles.",
+            "detail2": "The discord API is used to verify the information necessary to access the mint function. The collection's smart contract is managed through thirdweb.",
+            "imageMain": "/public/project/fleet/fleetMain.png"
+        },
+        "collector-chain": {
+            "name": "collector chain",
+            "description": "Tokenisation and fractionalisation of physical collectibles",
+            "detail1": "With Collector Chain, create, buy and sell digitalized and fractionated physical collectibles. Collector Chain is a platform which ease your collector hobby thanks to shares fractionalization.",
+            "detail2": "Anyone can ask for fractionalisation of any object. The curation and valuation are done by experts. Moreover, by acquiring real ownership shares of the object instead of the real object, collect is becoming more sustainable by avoiding new object production pressure."
+        },
+        "confidential-customer": {
+            "name": "confidential customer",
+            "description": "NFT smart contracts",
+            "detail1": "Development of a standard smart contract template library. Each smart contract serves as a configurable model for the launch of a new collection with specific parameters: type of NFT, price, supply, revenue sharing, etc.",
+            "detail2": "Each contract supports role management, automated revenue sharing and the ability to pay for NFTs in stable digital assets (stable coins)."
+        },
+        "perfconnect": {
+            "name": "perf connect",
+            "description": "Sport coaching IOS app",
+            "detail1": "Coaching application for amateur athletes seeking to optimize their performance: endurance, speed, motor skills, strength and explosiveness.",
+            "detail2": "Based on a user self-assessment as well as a desired time frame, the application generates a personalized training program. The user records their performance and has access to a personal coach to support them in their progress."
         }
     }
 }

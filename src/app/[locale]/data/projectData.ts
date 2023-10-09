@@ -39,16 +39,6 @@ const projects : Project[] = [
     stack:["nextjs","react","thirdweb"],
     link:"https://mint.fleetweb3.xyz/"
     },
-    { slug: 'the-blockchain-team', 
-    name: 'the blockchain team', 
-    description: 'Site vitrine', 
-    imageMain: bctMain,
-    image: bct, 
-    detail1:"Site vitrine pour 'the blockchain team' qui propose aux artistes traditionnels un accompagnement complet pour le lancement de leur collection NFT.",
-    detail2:"Présentation de l'équipe et du process. Possibilité de prise de rendez vous directement sur le site.",
-    stack:["nextjs","react","tailwind"],
-    link:"https://blockchain-team-commercial-page.vercel.app/"
-    },
     { slug: 'collector-chain', 
     name: 'Collector chain', 
     description: 'Tokenisation and fractionalisation of physical collectibles', 
@@ -60,7 +50,7 @@ const projects : Project[] = [
     stack:["create react app","react","typescript","solidity","hardhat"],
     link:"https://collector-chain-alpha.vercel.app//"
     },
-    { slug: 'confidential-client', 
+    { slug: 'confidential-customer', 
     name: 'client confidentiel', 
     description: 'Smart contract NFT', 
     imageMain: mtcdMain,
