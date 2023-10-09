@@ -38,7 +38,7 @@ const CompanyBlock = (props: Props) => {
             </div>
 
         </div>
-        <h2 className='text-3xl md:text-4xl font-semibold text-center mt-10'>&lt; CONTACT /&gt;</h2>
+        <h2 className='text-3xl md:text-4xl font-semibold text-center mt-10 -mb-10'>&lt; CONTACT /&gt;</h2>
 
         <MeetingButton/>
         <div className='flex gap-10'>

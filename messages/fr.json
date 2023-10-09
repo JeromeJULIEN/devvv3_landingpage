@@ -42,7 +42,7 @@
         },
         "collector-chain": {
             "name": "collector chain",
-            "description": "Tokénisation et fractionalisation d'objets physiques de collection",
+            "description": "Tokénisation et fractionalisation d'objets",
             "detail1": "Avec Collector Chain, créez, achetez et vendez des objets de collection physiques numérisés et fractionnés. Collector Chain est une plateforme qui facilite votre hobby de collectionneur grâce au fractionnement des objets.",
             "detail2": "N’importe qui peut demander le fractionnement de n’importe quel objet. La conservation et la valorisation sont effectuées par des experts. De plus, en acquérant des parts de propriété réelles de l'objet au lieu de l'objet réel, la collection devient plus durable en évitant la pression de production de nouveaux objets."
         },

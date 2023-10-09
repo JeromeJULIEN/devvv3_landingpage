@@ -28,7 +28,7 @@ const WelcomeBlock = (props: Props) => {
     <div className='relative flex flex-col gap-10 items-center px-2 py-10 pt-0 w-full min-h-screen'>
         <Particles
             className="absolute inset-0 -z-10  h-full"
-            quantity={500}
+            quantity={250}
         />
 
         <div className='flex flex-col gap-10 justify-between items-center min-h-screen p-10 text-white'>

@@ -25,9 +25,10 @@ const ProjectPage = (props: Props) => {
             <h1 className='text-3xl md:text-4xl tracking-widest'>&lt; {t(`${props.params.projectName}.name`).toUpperCase()} /&gt;</h1>
             <h2 className='text-xl md:text-2xl font-light text-neutral-500 tracking-widest pb-10'>{t(`${props.params.projectName}.description`)}</h2>
             <div className='flex flex-col md:flex-row gap-10'>
-                <Image src={project.image} alt="fleet pic" className='w-full md:w-1/4'/>  
-                {project.secondImage !== undefined && <Image src={project.secondImage} alt="secondImage" className='w-full md:w-1/4'/> }
-                <div className='flex flex-col gap-2'>
+                <Image src={project.image} alt="fleet pic" className='w-full md:w-1/4 object-contain'/>  
+                {project.secondImage !== undefined && 
+                <Image src={project.secondImage} alt="secondImage" className='w-full md:w-1/4 object-contain'/> }
+                <div className='flex flex-col gap-2 md:w-1/2'>
                     <h3 className='text-2xl font-light tracking-widest'>Description</h3>
                     <p className='font-extralight text-neutral-500'>{t(`${props.params.projectName}.detail1`)}</p>
                     {project.detail2 !== undefined && <p className='font-extralight text-neutral-500'>{t(`${props.params.projectName}.detail2`)}</p> }
