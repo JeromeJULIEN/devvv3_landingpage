@@ -11,9 +11,7 @@ export const metadata: Metadata = {
 }
 
 import {NextIntlClientProvider} from 'next-intl';
-import {notFound} from 'next/navigation';
-const locales = ['en', 'fr'];
- 
+import {notFound} from 'next/navigation'; 
 
 export function generateStaticParams() {
   return [{locale: 'en'}, {locale: 'fr'}];
