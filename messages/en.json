@@ -1,0 +1,40 @@
+{
+    "WelcomeBlock": {
+        "headline": "Build the future digital usescases with web3, blockchain, and mobile applications technologies!",
+        "intro": "At devvv3, we are specialized in fullstack web3 and iOS development. Our team is dedicated to bringing your projects to life, whether it involves a global support or targeted expertise.",
+        "callToAction": "An idea? A question? Let's talk !"
+    },
+    "ProjectBlock": {
+        "title": "projects",
+        "intro": "Below are some of ours latest projects"
+    },
+    "StackBlock": {
+        "title": "technical stack",
+        "intro": "At devvv3, we're using the most advanced tools for project development and we constantly keep up to date with the latest technological developments.",
+        "decentralisedApp": "decentralised app"
+    },
+    "CompanyBlock": {
+        "title": "about devvv3",
+        "intro1": "Passionate about blockchain and iOS technologies, we are firmly convinced of the long-term impacts of decentralization and digitalization.",
+        "intro2": "We combine our technical expertise with our experience in project management and research & development to create the applications of tomorrow.",
+        "basedIn": "based in",
+        "theTeam": "the team",
+        "jeromeProfile": "Web3 and IOS developer"
+    },
+    "Footer": {
+        "copyright": "All right reserved",
+        "joke": "Website developed with interstellar original music"
+    },
+    "LocaleSwitcher": {
+        "label": "Change language",
+        "locale": "{locale, select, fr {French} en {English} other {Unknown}}"
+    },
+    "MeetingButton": {
+        "text": "Book a meeting"
+    },
+    "project": {
+        "fleet-collective": {
+            "name": "fleet collective"
+        }
+    }
+}

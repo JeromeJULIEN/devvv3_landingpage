@@ -1,30 +1,32 @@
 import Image from 'next/image'
 import React from 'react'
-import profilPic from "../../../public/profilPic.png"
+import profilPic from "../../../../public/profilPic.png"
 import SocialNetworkCard from './SocialNetworkCard'
 import MeetingButton from './MeetingButton'
 import Footer from './Footer'
 import socialData from '../data/socialData'
-import email from '../../../public/social/email.png'
+import email from '../../../../public/social/email.png'
+import {useTranslations} from "next-intl"
 
 type Props = {}
 
-const ProfileBlock = (props: Props) => {
+const CompanyBlock = (props: Props) => {
+    const t= useTranslations("CompanyBlock")
   return (
     <div className='flex flex-col gap-10 items-center px-4 pt-10 bg-white w-full min-h-screen'>
-        <h2 className='text-3xl md:text-4xl font-semibold text-center'>&lt; DEVVV3 EN BREF /&gt;</h2>
-        <p className='text-neutral-500 px-4 md:w-2/3 text-center'>Passionnés par les technologies blockchain et iOS, nous sommes fermement convaincus des impacts à long terme de la décentralisation et de la digitalisation.</p>
+        <h2 className='text-3xl md:text-4xl font-semibold text-center'>&lt; {t('title').toUpperCase()} /&gt;</h2>
+        <p className='text-neutral-500 px-4 md:w-2/3 text-center'>{t('intro1')}</p>
         <p className='text-neutral-500 px-4 md:w-2/3 text-center'>
-        Nous combinons notre expertise technique avec notre expérience en gestion de projets et en recherche & développement pour créer les applications de demain.
+        {t('intro2')}
         </p>
-        <h3 className='text-xl font-semibold text-center tracking-widest'>BAS&Eacute; SUR <span className='text-cyan-500'>MARSEILLE, FRANCE</span></h3>
-        <h2 className='text-3xl md:text-4xl font-semibold text-center mt-10'>&lt; L&apos;EQUIPE /&gt;</h2>
+        <h3 className='text-xl font-semibold text-center tracking-widest'>{t('basedIn').toUpperCase()} <span className='text-cyan-500'>MARSEILLE, FRANCE</span></h3>
+        <h2 className='text-3xl md:text-4xl font-semibold text-center mt-10'>&lt; {t('theTeam').toUpperCase()} /&gt;</h2>
         <div className='flex flex-col gap-4 justify-center items-center'>
             <div className='flex gap-4 items-center'>
                 <Image src={profilPic} alt="profil picture" width={100} className='rounded-full w-30 sm:w-40'/>
                 <div className='fex flex-col gap-4 items-start justify-between'>
                     <p>Jérôme</p>
-                    <p className='font-light'>Développeur web3 et IOS </p>
+                    <p className='font-light'>{t('jeromeProfile')}</p>
                 </div>
             </div>
             <div className='flex gap-2 sm:gap-10 items-baseline justify-start flex-wrap'>
@@ -49,4 +51,4 @@ const ProfileBlock = (props: Props) => {
   )
 }
 
-export default ProfileBlock
+export default CompanyBlock

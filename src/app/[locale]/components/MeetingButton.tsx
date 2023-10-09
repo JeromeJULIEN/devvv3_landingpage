@@ -1,6 +1,8 @@
 'use client'
 import React, { useEffect, useState } from 'react'
 import { PopupModal } from 'react-calendly';
+import {useTranslations} from 'next-intl';
+
 
 type Props = {}
 
@@ -18,9 +20,12 @@ const MeetingButton = (props: Props) => {
         setIsCalendlyOpen(!isCalendlyOpen)
     }
 
+  const t = useTranslations('MeetingButton')
+
+
   return (
     <>
-        <button className='px-8 py-2 my-10 rounded-full bg-cyan-500  text-white  text-2xl hover:bg-cyan-300 hover:font-light hover:px-9 transition-all duration-200' onClick={toggleCalendly}>Prendre un rdv</button>
+        <button className='px-8 py-2 my-10 rounded-full bg-cyan-500  text-white  text-2xl hover:bg-cyan-300 hover:font-light hover:px-9 transition-all duration-200' onClick={toggleCalendly}>{t('text')}</button>
         <PopupModal
                     url="https://calendly.com/jerome-devvv3"
                     onModalClose={toggleCalendly}

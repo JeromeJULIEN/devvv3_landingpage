@@ -1,9 +1,9 @@
 import { StaticImageData } from "next/image";
-import linkedin from "../../../public/social/linkedin.png"
-import github from "../../../public/social/github.png"
-import x from "../../../public/social/x.png"
-import nodeguardian from "../../../public/social/nodeguardian.png"
-import alyra from "../../../public/social/alyra.png"
+import linkedin from "../../../../public/social/linkedin.png"
+import github from "../../../../public/social/github.png"
+import x from "../../../../public/social/x.png"
+import nodeguardian from "../../../../public/social/nodeguardian.png"
+import alyra from "../../../../public/social/alyra.png"
 
 
 interface Social {

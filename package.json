@@ -9,10 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "clsx": "^2.0.0",
+    "i18next": "^23.5.1",
     "next": "13.5.4",
+    "next-intl": "^3.0.0-beta.19",
     "react": "^18",
     "react-calendly": "^4.2.0",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-i18next": "^13.2.2"
   },
   "devDependencies": {
     "@types/node": "^20",
