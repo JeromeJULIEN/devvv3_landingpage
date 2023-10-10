@@ -21,9 +21,7 @@ const ProjectPage = (props: Props) => {
       }
 
       const [isImageLoading, setIsImageLoading] = useState(false);
-      const setImageLoadingFalse = ()=> {
-        setIsImageLoading(false)
-      }
+      
 
 
     return (
