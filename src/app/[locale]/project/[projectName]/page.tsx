@@ -25,12 +25,12 @@ const ProjectPage = (props: Props) => {
             <h1 className='text-3xl md:text-4xl tracking-widest'>&lt; {t(`${props.params.projectName}.name`).toUpperCase()} /&gt;</h1>
             <h2 className='text-xl md:text-2xl font-light text-neutral-500 tracking-widest pb-10'>{t(`${props.params.projectName}.description`)}</h2>
             <div className='flex flex-col md:flex-row gap-10'>
-                <Image src={project.image} alt="fleet pic" className='w-full md:w-1/4 object-contain'/>  
+                <Image src={project.image} alt={`${project.name} main image`} className='w-full md:w-1/4 object-contain'/>  
                 {project.secondImage !== undefined && 
-                <Image src={project.secondImage} alt="secondImage" className='w-full md:w-1/4 object-contain'/> }
+                <Image src={project.secondImage} alt={`${project.name} second image`} className='w-full md:w-1/4 object-contain'/> }
                 <div className='flex flex-col gap-2 md:w-1/2'>
                     <h3 className='text-2xl font-light tracking-widest'>Description</h3>
-                    <p className='font-extralight text-neutral-500'>{t(`${props.params.projectName}.detail1`)}</p>
+                    <main className='font-extralight text-neutral-500'>{t(`${props.params.projectName}.detail1`)}</main>
                     {project.detail2 !== undefined && <p className='font-extralight text-neutral-500'>{t(`${props.params.projectName}.detail2`)}</p> }
                     <h3 className='text-2xl font-light tracking-widest pt-10'>{locale === "en" ? "Technical Stack" : "Stack technique"}</h3>
                     <div className='flex flex-col gap-1 font-extralight text-neutral-500'>

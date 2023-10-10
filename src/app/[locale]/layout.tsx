@@ -7,7 +7,7 @@ const rubik = Rubik({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'devvv3',
-  description: 'web3 and ios app development',
+  description: 'web3, blockchain and ios application development',
 }
 
 import {NextIntlClientProvider} from 'next-intl';

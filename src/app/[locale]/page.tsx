@@ -11,12 +11,11 @@ export default function Home() {
    <main id="main" className='flex flex-col justify-center items-center  overflow-hidden'>
     <div className='flex justify-end w-full'>
         <LanguageSwitcher/>
-
     </div>
-      <WelcomeBlock/>
-      <ProjectBlock/>
-      <StackBlock/>
-      <CompanyBlock/>
+    <WelcomeBlock/>
+    <ProjectBlock/>
+    <StackBlock/>
+    <CompanyBlock/>
    </main>
   )
 }

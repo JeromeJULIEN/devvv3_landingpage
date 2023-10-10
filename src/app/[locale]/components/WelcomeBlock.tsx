@@ -35,9 +35,9 @@ const WelcomeBlock = (props: Props) => {
             <div className='flex-grow'></div>
             <div className='h-16'></div>
             <div className="relative w-72 sm:w-1/2 -translate-y-20 md:-translate-y-36 ">
-                <Image src={chevron} alt="logo_chevron" className='absolute animate-fade-in'/>
-                <Image src={dev} alt="logo_dev" className='absolute animate-move-up'/>
-                <Image src={vv3} alt="logo_vv3" className='absolute animate-move-down'/>
+                <Image src={chevron} alt="logo_devvv3" className='absolute animate-fade-in'/>
+                <Image src={dev} alt="logo_devvv3" className='absolute animate-move-up'/>
+                <Image src={vv3} alt="logo_devvv3" className='absolute animate-move-down'/>
             </div>
             <h1 className='text-lg md:text-2xl font-light tracking-wider animate-fade-in'>blockchain | web3 | mobile app </h1>
             <h2 className='text-neutral-400  md:w-2/3 text-center animate-fade-in'>{t('headline')}</h2>
@@ -50,9 +50,12 @@ const WelcomeBlock = (props: Props) => {
             <InlineText direction={1}/>
             <InlineText direction={-2} />
         </div>
-        <p className='mt-10 text-neutral-300 font-light w-3/4 md:w-2/3 text-center'>{t('intro')}</p>
-        <p className='text-neutral-300 font-bold w-3/4 md:w-2/3 text-center'>Smart contract | front-end web3 | marketplace | actif numérique | app mobile ios</p>
-        <p className='text-neutral-300  font-light md:w-2/3 text-center'>{t('callToAction')}</p>
+        <main className='flex flex-col gap-10 items-center'>
+            <p className='mt-10 text-neutral-300 font-light w-3/4 md:w-2/3 text-center'>{t('intro')}</p>
+            <p className='text-neutral-300 font-bold w-3/4 md:w-2/3 text-center'>Smart contract | front-end web3 | marketplace | actif numérique | app mobile ios</p>
+            <p className='text-neutral-300  font-light md:w-2/3 text-center'>{t('callToAction')}</p>
+
+        </main>
         <MeetingButton/>
         <div ref={ref}></div>
     </div>

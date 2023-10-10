@@ -20,7 +20,7 @@ const CompanyBlock = (props: Props) => {
         <p className='text-neutral-500 px-4 md:w-2/3 text-center'>
         {t('intro2')}
         </p>
-        <h3 className='text-xl font-semibold text-center tracking-widest'>{t('basedIn').toUpperCase()} <span className='text-cyan-500'>MARSEILLE, FRANCE</span></h3>
+        <p className='text-xl font-semibold text-center tracking-widest'>{t('basedIn').toUpperCase()} <span className='text-cyan-500'>MARSEILLE, FRANCE</span></p>
         <h2 className='text-3xl md:text-4xl font-semibold text-center mt-10'>&lt; {t('theTeam').toUpperCase()} /&gt;</h2>
         <div className='flex flex-col gap-4 justify-center items-center'>
             <div className='flex gap-4 items-center'>
@@ -42,7 +42,7 @@ const CompanyBlock = (props: Props) => {
 
         <MeetingButton/>
         <div className='flex gap-10'>
-            <a href="mailto:jerome.devvv3@gmail.com?subject=Prise de contract depuis le site devvv3.com" target='_blank'>
+            <a href="mailto:jerome@devvv3.com?subject=Prise de contract depuis le site devvv3.com" target='_blank'>
                 <div className='flex flex-col items-center justify-center gap-2 w-20'>
                     <Image src={email} alt="logo" width={50} />
                     <p className='text-xs tracking-widest text-center'>{t('email').toUpperCase()}</p>

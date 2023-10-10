@@ -51,7 +51,7 @@ export default function LanguageSwitcher() {
   }
 
   return(
-  <div className="flex flex-row justify-center select-none m-2 border border-neutral-700 rounded-full hover:bg-neutral-400 transition-all duration-200">
+  <div className="flex flex-row justify-center select-none m-2 border border-neutral-700 rounded-full hover:bg-neutral-400 transition-all duration-200 animate-fade-in">
 	  <div className="flex flex-row items-center right-1">
 		  <button className={`w-8 p-1 flex justify-center rounded-full text-xs font-light text-neutral-700 focus:bg-neutral-200 focus:outline-none focus:text-black transition-all duration-200 ${locale === 'en' && 'bg-neutral-200'}`} data-value='en' onClick={onSelectChange}>
         <span >En</span>

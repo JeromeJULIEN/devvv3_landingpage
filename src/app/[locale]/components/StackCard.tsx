@@ -9,7 +9,7 @@ type Props = {
 const StackCard = (props: Props) => {
   return (
     <div className='flex flex-col items-center gap-2'>
-        <Image src={props.logo} alt="logo" height={75}/>
+        <Image src={props.logo} alt={props.name} height={75}/>
         <p className='text-white tracking-widest'>{props.name.toUpperCase()}</p>
     </div>
   )
