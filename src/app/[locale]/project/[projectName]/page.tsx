@@ -1,5 +1,5 @@
 'use client'
-import React from 'react'
+import React, { useState } from 'react'
 import projects from '../../data/projectData'
 import Image from 'next/image'
 import {useTranslations,useLocale} from 'next-intl';
@@ -20,12 +20,22 @@ const ProjectPage = (props: Props) => {
         return <div className=' bg-white w-full min-h-screen'>Projet non trouvé</div>;
       }
 
+      const [isImageLoading, setIsImageLoading] = useState(false);
+      const setImageLoadingFalse = ()=> {
+        setIsImageLoading(false)
+      }
+
+
     return (
         <div className=' bg-white w-full min-h-screen flex flex-col gap-4 items-start'>            
             <h1 className='text-3xl md:text-4xl tracking-widest'>&lt; {t(`${props.params.projectName}.name`).toUpperCase()} /&gt;</h1>
             <h2 className='text-xl md:text-2xl font-light text-neutral-500 tracking-widest pb-10'>{t(`${props.params.projectName}.description`)}</h2>
             <div className='flex flex-col md:flex-row gap-10'>
-                <Image src={project.image} alt={`${project.name} main image`} className='w-full md:w-1/4 object-contain'/>  
+                {/* {isImageLoading ? 
+                <div className='w-full md:w-1/4 bg-neutral-300 animate-pulse'></div>
+                : */}
+                <Image src={project.image} alt={`${project.name} main image`} className={`w-full md:w-1/4 object-contain ${isImageLoading ? "bg-neutral-300 animate-pulse":""}`} onLoad={() => setIsImageLoading(false)}/>  
+                {/* } */}
                 {project.secondImage !== undefined && 
                 <Image src={project.secondImage} alt={`${project.name} second image`} className='w-full md:w-1/4 object-contain'/> }
                 <div className='flex flex-col gap-2 md:w-1/2'>
