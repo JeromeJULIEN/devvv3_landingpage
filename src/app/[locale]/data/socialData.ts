@@ -13,10 +13,10 @@ interface Social {
 }
 
 const socialData : Social[] = [
-    {name : "linkedin", logo: linkedin, link:"https://www.linkedin.com/in/jerome-0x-dev/"},
+    {name : "linkedin", logo: linkedin, link:"https://www.linkedin.com/in/jerome-devvv3/"},
     {name : "github", logo: github, link:"https://github.com/JeromeJULIEN"},
     {name : "alyra", logo: alyra, link:"https://certificate.bcdiploma.com/check/0BA255AC8C62B6401282FE36ED738E2271D46FD07EF51E2EC710C93AE2325E2CMkRscUd3S053Q2RiWUlIVzUreWl3cFdlMmE5amZtOG4xazF3YUNiRkVTUk1DVHpS"},
-    {name : "x", logo: x, link:"https://twitter.com/jerome_0x_dev"},
+    {name : "x", logo: x, link:"https://twitter.com/jerome_devvv3"},
     {name : "node guardian", logo: nodeguardian, link:"https://nodeguardians.io/character/ca14a3c23f77"},
 ]
 
