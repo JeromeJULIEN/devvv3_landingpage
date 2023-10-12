@@ -40,7 +40,7 @@ const WelcomeBlock = (props: Props) => {
                 <Image src={vv3} alt="logo_devvv3" className='absolute animate-move-down'/>
             </div>
             <h1 className='text-lg md:text-2xl font-light tracking-wider animate-fade-in'>blockchain | web3 | mobile app </h1>
-            <h2 className='text-neutral-400  md:w-2/3 text-center animate-fade-in'>{t('headline')}</h2>
+            <main className='text-neutral-400  md:w-2/3 text-center animate-fade-in'>{t('headline')}</main>
             <button onClick={scrollToRef}><Image src={downArrow} alt='downArrow' width={50} height={50} className='animate-fade-in'/></button>
             <div  className='flex-grow'></div>
         </div>
@@ -50,12 +50,12 @@ const WelcomeBlock = (props: Props) => {
             <InlineText direction={1}/>
             <InlineText direction={-2} />
         </div>
-        <main className='flex flex-col gap-10 items-center'>
+        <div className='flex flex-col gap-10 items-center'>
             <p className='mt-10 text-neutral-300 font-light w-3/4 md:w-2/3 text-center'>{t('intro')}</p>
-            <p className='text-neutral-300 font-bold w-3/4 md:w-2/3 text-center'>Smart contract | front-end web3 | marketplace | actif numérique | app mobile ios</p>
+            <h2 className='text-neutral-300 font-bold w-3/4 md:w-2/3 text-center'>Smart contract | front-end web3 | marketplace | actif numérique | app mobile ios</h2>
             <p className='text-neutral-300  font-light md:w-2/3 text-center'>{t('callToAction')}</p>
 
-        </main>
+        </div>
         <MeetingButton/>
         <div ref={ref}></div>
     </div>
