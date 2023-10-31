@@ -40,7 +40,7 @@ const WelcomeBlock = (props: Props) => {
                 <Image src={vv3} alt="logo_devvv3" className='absolute animate-move-down'/>
             </div>
             <h1 className='text-lg md:text-2xl font-light tracking-wider animate-fade-in'>blockchain | web3 | mobile app </h1>
-            <main className='text-neutral-400  md:w-2/3 text-center animate-fade-in'>{t('headline')}</main>
+            <h2 className='text-neutral-400  md:w-2/3 text-center animate-fade-in'>{t('headline')}</h2>
             <button onClick={scrollToRef}><Image src={downArrow} alt='downArrow' width={50} height={50} className='animate-fade-in'/></button>
             <div  className='flex-grow'></div>
         </div>
