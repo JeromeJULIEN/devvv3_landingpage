@@ -9,7 +9,7 @@ import CompanyBlock from './components/CompanyBlock'
 export default function Home() {
   return (
    <main id="main" className='flex flex-col justify-center items-center  overflow-hidden'>
-    <div className='flex justify-end w-full'>
+    <div className='flex justify-center w-full'>
         <LanguageSwitcher/>
     </div>
     <WelcomeBlock/>

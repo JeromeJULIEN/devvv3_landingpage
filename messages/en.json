@@ -2,6 +2,7 @@
     "WelcomeBlock": {
         "headline": "We help you to build the future digital usescases with web3, blockchain, and mobile applications technologies!",
         "intro": "At devvv3, we are developers specialized in fullstack web3 and iOS development. Our team is dedicated to bringing your projects to life, whether it involves a global support or targeted expertise.",
+        "list": "Smart contract | Web3 front-end  | Marketplace | Digital asset | Mobile app iOS",
         "callToAction": "An idea? A question? Let's talk !"
     },
     "ProjectBlock": {
@@ -32,6 +33,37 @@
     },
     "MeetingButton": {
         "text": "Book a meeting"
+    },
+    "offer": {
+        "starter": {
+            "headline": "Set up your idea",
+            "price": "by item / Complete pack",
+            "title1": "Workshop \"What?\"",
+            "description1": "which services for which users? 👉 functional specifications 🎯",
+            "title2": "Workshop \"How?\"",
+            "description2": "what technical solutions for which services? 👉 technical specifications ✅",
+            "title3": "Interactive visual prototype",
+            "description3": "Present and share your project as if it were real with an interactive visual prototype 💥📱",
+            "description4": "One week top time for all deliverables ⏰"
+        },
+        "booster": {
+            "headline": "Accelerate your development",
+            "price": "Starting from",
+            "description1": "Integration with your dev team 🧑‍💻",
+            "description2": "Free initial consultation to assess the need 🗒️",
+            "description3": "Frontend, smart contract, iOS scope",
+            "description4": "Flexible development package from 5 to 20 days, usable on demand 📅",
+            "description5": "Post-development technical support for 10 and 20 day packages 🚨"
+        },
+        "prime": {
+            "headline": "Have your product developed",
+            "price": "Starting from",
+            "description1": "Delivery of a turnkey web3 and/or iOS MVP 🎊",
+            "description2": "Free initial consultation to assess the need 🗒️",
+            "description3": "Setting up the necessary infrastructure tools (database, user authentication, smart contract deployment and site...) 🤖",
+            "description4": "One year of free maintenance 🚨",
+            "description5": "Priority development ⏩"
+        }
     },
     "projects": {
         "fleet-collective": {

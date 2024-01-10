@@ -2,6 +2,7 @@
     "WelcomeBlock": {
         "headline": "Nous vous aidons à construire les futurs usages numériques avec les technologies du web3, de la blockchain et des applications mobiles!",
         "intro": "Chez devvv3, nous sommes des développeurs spécialisés en développement fullstack web3 et iOS. Notre équipe est dédiée à donner vie à vos projets, qu'il s'agisse d'un accompagnement global ou d'une expertise ciblée.",
+        "list": "Smart contract | front-end web3 | Marketplace | Actif numérique | App mobile iOS",
         "callToAction": "Une idée ? Une question ? Parlons-en !"
     },
     "ProjectBlock": {
@@ -32,6 +33,37 @@
     },
     "MeetingButton": {
         "text": "Prendre un rdv"
+    },
+    "offer": {
+        "starter": {
+            "headline": "Structurez votre idée",
+            "price": "par item / Pack complet",
+            "title1": "Atelier \"Quoi ?\"",
+            "description1": "quels services pour quelles cibles ? 👉 cahier des charges fonctionnel 🎯",
+            "title2": "Atelier \"Comment ?\"",
+            "description2": "quelles solutions techniques pour quels services ? 👉 cahier des charges technique ✅",
+            "title3": "Maquette visuelle interactive",
+            "description3": "Présenter et partager votre projet comme s’il était réel avec une maquette visuelle interactive 💥📱",
+            "description4": "Une semaine top chrono pour l’ensemble des livrables ⏰"
+        },
+        "booster": {
+            "headline": "Accélérez votre développement",
+            "price": "A partir de",
+            "description1": "Intégration à votre équipe dev 🧑‍💻",
+            "description2": "Consultation initiale gratuite pour évaluer le besoin 🗒️",
+            "description3": "Périmètre frontend, smart contract, IOS",
+            "description4": "Forfait flexible de développement de 5 à 20 jours, utilisables à la demande 📅",
+            "description5": "Support technique post développement pour les forfaits 10 et 20 jours 🚨"
+        },
+        "prime": {
+            "headline": "Faites développer votre produit",
+            "price": "A partir de",
+            "description1": "Livraison d’un MVP web3 et/ou IOS clé en main 🎊",
+            "description2": "Consultation initiale gratuite pour évaluer le besoin 🗒️",
+            "description3": "Mise en place des outils d’infrastructure nécessaire (base de donnée, authentification utilisateur, déploiement smart contract et site...) 🤖",
+            "description4": "Maintenance offerte pendant un an 🚨",
+            "description5": "Développement prioritaire ⏩"
+        }
     },
     "projects": {
         "fleet-collective": {
