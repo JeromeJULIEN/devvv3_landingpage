@@ -8,7 +8,7 @@ const OfferBooster = (props: Props) => {
 
 
     return (
-        <div className='flex flex-col item-center gap-4 text-white md:w-1/3'>
+        <div className='flex flex-col item-center gap-4 text-white md:w-1/3 border border-gray-500 rounded-lg p-4'>
             <h3 className='text-3xl'><strong>Booster kit : </strong>{t('booster.headline')}</h3>
             <h4 className='text-xl text-cyan-500 pb-6'>{t('booster.price')}<strong> 3000€</strong></h4>
             <p><strong>&#x2714; </strong>{t('booster.description1')}</p>
