@@ -51,13 +51,13 @@ const WelcomeBlock = (props: Props) => {
             <InlineText direction={1}/>
             <InlineText direction={-2} />
         </div>
-        <div className='flex flex-col gap-10 items-center'>
+        <main className='flex flex-col gap-10 items-center'>
             <p className='mt-10 text-neutral-300 font-light w-3/4 md:w-2/3 text-center'>{t('intro')}</p>
             <p className='text-neutral-300 font-bold w-3/4 md:w-2/3 text-center'>{t('list')}</p>
             <Offerblock/>
             <p className='text-neutral-300 pt-10 font-light md:w-2/3 text-center'>{t('callToAction')}</p>
             <MeetingButton/>
-        </div>
+        </main>
         
         <div ref={ref}></div>
     </div>
