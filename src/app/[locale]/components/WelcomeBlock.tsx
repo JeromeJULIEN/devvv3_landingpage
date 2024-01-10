@@ -57,7 +57,7 @@ const WelcomeBlock = (props: Props) => {
             <Offerblock/>
             <p className='text-neutral-300 pt-10 font-light md:w-2/3 text-center'>{t('callToAction')}</p>
             <MeetingButton/>
-        </main>
+        </div>
         
         <div ref={ref}></div>
     </div>
