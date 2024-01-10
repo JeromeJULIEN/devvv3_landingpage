@@ -8,6 +8,7 @@ import chevron from "public/logo_chevron.png"
 import vv3 from "public/logo_vv3.png"
 import MeetingButton from './MeetingButton'
 import {useTranslations} from 'next-intl';
+import Offerblock from './Offerblock'
 
 
 type Props = {}
@@ -52,11 +53,12 @@ const WelcomeBlock = (props: Props) => {
         </div>
         <main className='flex flex-col gap-10 items-center'>
             <p className='mt-10 text-neutral-300 font-light w-3/4 md:w-2/3 text-center'>{t('intro')}</p>
-            <p className='text-neutral-300 font-bold w-3/4 md:w-2/3 text-center'>Smart contract | front-end web3 | marketplace | actif numérique | app mobile ios</p>
-            <p className='text-neutral-300  font-light md:w-2/3 text-center'>{t('callToAction')}</p>
-
+            <p className='text-neutral-300 font-bold w-3/4 md:w-2/3 text-center'>{t('list')}</p>
+            <Offerblock/>
+            <p className='text-neutral-300 pt-10 font-light md:w-2/3 text-center'>{t('callToAction')}</p>
+            <MeetingButton/>
         </main>
-        <MeetingButton/>
+        
         <div ref={ref}></div>
     </div>
   )
