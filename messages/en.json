@@ -35,6 +35,7 @@
         "text": "Book a meeting"
     },
     "offer": {
+        "title": "our offers",
         "starter": {
             "headline": "Set up your idea",
             "price": "by item / Complete pack",

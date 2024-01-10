@@ -35,6 +35,7 @@
         "text": "Prendre un rdv"
     },
     "offer": {
+        "title": "nos offres",
         "starter": {
             "headline": "Structurez votre idée",
             "price": "par item / Pack complet",
