@@ -16,7 +16,7 @@ const OfferStarter = (props: Props) => {
             <p><strong>&#x2714; {t('starter.title1')} : </strong>{t('starter.description1')}</p>
             <p><strong>&#x2714; {t('starter.title2')} : </strong>{t('starter.description2')}</p>
             <p><strong>&#x2714; {t('starter.title3')} : </strong>{t('starter.description3')}</p>
-            <p><strong>&#x2714; </strong>{t('starter.description4')}</p>
+            <p>{t('starter.description4')}</p>
 
         </div>
     )

@@ -1,13 +1,14 @@
 {
     "WelcomeBlock": {
-        "headline": "We help you to build the future digital usescases with web3, blockchain, and mobile applications technologies!",
-        "intro": "At devvv3, we are developers specialized in fullstack web3 and iOS development. Our team is dedicated to bringing your projects to life, whether it involves a global support or targeted expertise.",
+        "headline": "I help you develop your product from day one to scaling, leveraging the best of blockchain, web3, and iOS technologies",
+        "intro": "With a solid 15-year R&D experience, I adapt to your project regardless of its maturity level: from the initial concept, through prototyping, development, and up to scaling solutions. I integrate with your technical teams to support and accelerate the definition and development of your web3, blockchain, or mobile products.",
+        "intro2": "No tech team? I handle the turnkey development of your project.",
         "list": "Smart contract | Web3 front-end  | Marketplace | Digital asset | Mobile app iOS",
         "callToAction": "An idea? A question? Let's talk !"
     },
     "ProjectBlock": {
         "title": "projects",
-        "intro": "Below are some of ours latest projects"
+        "intro": "Below are some of my latest projects"
     },
     "StackBlock": {
         "title": "technical stack",
@@ -16,8 +17,8 @@
     },
     "CompanyBlock": {
         "title": "about devvv3",
-        "intro1": "Passionate about blockchain and iOS technologies, we are firmly convinced of the long-term impacts of decentralization and digitalization.",
-        "intro2": "We combine our technical expertise with our experience in project management and research & development to create the applications of tomorrow.",
+        "intro1": "Passionate about blockchain and iOS technologies, i'm firmly convinced of the long-term impacts of decentralization and digitalization.",
+        "intro2": "I combine my technical expertise with my experience in project management and research & development to create the applications of tomorrow.",
         "basedIn": "based in",
         "theTeam": "the team",
         "jeromeProfile": "Web3 and IOS developer",
@@ -35,7 +36,7 @@
         "text": "Book a meeting"
     },
     "offer": {
-        "title": "our offers",
+        "title": "my offers",
         "starter": {
             "headline": "Set up your idea",
             "price": "by item / Complete pack",

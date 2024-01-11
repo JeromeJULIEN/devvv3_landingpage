@@ -1,23 +1,24 @@
 {
     "WelcomeBlock": {
-        "headline": "Nous vous aidons à construire les futurs usages numériques avec les technologies du web3, de la blockchain et des applications mobiles!",
-        "intro": "Chez devvv3, nous sommes des développeurs spécialisés en développement fullstack web3 et iOS. Notre équipe est dédiée à donner vie à vos projets, qu'il s'agisse d'un accompagnement global ou d'une expertise ciblée.",
-        "list": "Smart contract | front-end web3 | Marketplace | Actif numérique | App mobile iOS",
+        "headline": "Je vous aide à développer votre produit du premier jour jusqu'au scaling, en apportant le meilleur des technologies blockchain, web3 et IOS",
+        "intro": "Avec une solide expérience de 15 ans en R&D, je m'adapte à votre projet quelque soit son niveau de maturité : Du concept initial, en passant par la maquette, le développement et allant jusqu’au scaling des solutions. J’intègre vos équipes techniques pour accompagner et accélérer la définition et le développement de votre produit web3, blockchain ou mobiles.",
+        "intro2": "Pas d’équipe tech ? Je prends en charge le développement clé en main de votre projet",
+        "list": "Smart contract | fullstack web3 | Marketplace | Actif numérique | App mobile iOS",
         "callToAction": "Une idée ? Une question ? Parlons-en !"
     },
     "ProjectBlock": {
         "title": "projets",
-        "intro": "Voici quelques-un de nos derniers projets"
+        "intro": "Voici quelques-un de mes derniers projets"
     },
     "StackBlock": {
         "title": "stack technique",
-        "intro": "Chez devvv3, nous utilisons les outils les plus avancés pour le développement de projets et nous nous tenons constamment à jour avec les dernières évolutions technologiques.",
+        "intro": "Pour votre projet, j'utiliserai les outils de développement les plus avancés et efficace. Je me tiens constamment à jour avec les dernières évolutions technologiques.",
         "decentralisedApp": "app décentralisée"
     },
     "CompanyBlock": {
         "title": "devvv3 en bref",
-        "intro1": "Passionnés par les technologies blockchain et iOS, nous sommes fermement convaincus des impacts à long terme de la décentralisation et de la digitalisation.",
-        "intro2": "Nous combinons notre expertise technique avec notre expérience en gestion de projets et en recherche & développement pour créer les applications de demain.",
+        "intro1": "Passionnés par les technologies blockchain et iOS, je suis fermement convaincu des impacts à long terme de la décentralisation et de la digitalisation. ",
+        "intro2": "Je combine mon expertise technique avec mon expérience en gestion de projets et en recherche & développement pour créer les applications de demain.",
         "basedIn": "basé sur",
         "theTeam": "l'équipe",
         "jeromeProfile": "Développeur web3 et IOS",
@@ -35,7 +36,7 @@
         "text": "Prendre un rdv"
     },
     "offer": {
-        "title": "nos offres",
+        "title": "Mes offres",
         "starter": {
             "headline": "Structurez votre idée",
             "price": "par item / Pack complet",

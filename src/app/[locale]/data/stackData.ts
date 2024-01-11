@@ -10,6 +10,8 @@ import oz from "../../../../public/stack/oz.png"
 import thirdweb from "../../../../public/stack/thirdweb.png"
 import swift from "../../../../public/stack/swift.png"
 import xcode from "../../../../public/stack/xcode.png"
+import firebase from "../../../../public/stack/firebase.png"
+
 
 interface Stack {
     name : string,
@@ -22,6 +24,7 @@ const web3Stack : Stack[] = [
     {name: "tailwind", logo : tailwind},
     {name: "nextjs13", logo : nextjs},
     {name: "nodejs", logo : nodejs},
+    {name: "firebase", logo : firebase}
 ]
 
 const blockchainStack : Stack[] = [

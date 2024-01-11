@@ -21,7 +21,7 @@ const CompanyBlock = (props: Props) => {
         {t('intro2')}
         </p>
         <h3 className='text-xl font-semibold text-center tracking-widest'>{t('basedIn').toUpperCase()} <strong className='text-cyan-500 font-semibold'>MARSEILLE, FRANCE</strong></h3>
-        <h2 className='text-3xl md:text-4xl font-semibold text-center mt-10'>&lt; {t('theTeam').toUpperCase()} /&gt;</h2>
+        {/* <h2 className='text-3xl md:text-4xl font-semibold text-center mt-10'>&lt; {t('theTeam').toUpperCase()} /&gt;</h2> */}
         <div className='flex flex-col gap-4 justify-center items-center'>
             <div className='flex gap-4 items-center'>
                 <Image src={profilPic} alt="profil picture" width={100} className='rounded-full w-30 sm:w-40'/>
