@@ -38,7 +38,6 @@ const ProjectPage = (props: Props) => {
                             <p key={soft}>{soft}</p>    
                         )}
                     </div>
-                    <p className='flex-grow'></p>
                     {project.link !== undefined &&
                     <a href={project.link} target='_blank' >
                         <button className='px-8 py-2 mt-10 rounded-full bg-cyan-500  text-white text-2xl w-full md:w-1/2 hover:bg-cyan-300 hover:font-light hover:px-9 transition-all duration-200'>{locale === "en" ? "Visit the website" : "Visiter le site"}</button>

@@ -87,11 +87,11 @@
             "detail1": "Development of a standard smart contract template library. Each smart contract serves as a configurable model for the launch of a new collection with specific parameters: type of NFT, price, supply, revenue sharing, etc.",
             "detail2": "Each contract supports role management, automated revenue sharing and the ability to pay for NFTs in stable digital assets (stable coins)."
         },
-        "perfconnect": {
-            "name": "perf connect",
-            "description": "Sport coaching IOS app",
-            "detail1": "Coaching application for amateur athletes seeking to optimize their performance: endurance, speed, motor skills, strength and explosiveness.",
-            "detail2": "Based on a user self-assessment as well as a desired time frame, the application generates a personalized training program. The user records their performance and has access to a personal coach to support them in their progress."
+        "ainu": {
+            "name": "aïnu",
+            "description": "iOS app : the sportsman's way",
+            "detail1": "Aïnu is an iOS community sports application. It enables outdoor sportsmen and women to post information on the conditions in which they are practicing their sport on a given site at a given time.",
+            "detail2": "Based on a user self-assessment as well as a desired time frame, the application generates a personalized training program. The user records their performance and has access to a personal coach to support them in their progress. Beta test ongoing."
         }
     }
 }

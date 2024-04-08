@@ -12,6 +12,9 @@ import perf2 from "../../../../public/project/perfConnect/perfConnect2.png"
 import collectionChainMain from "../../../../public/project/collectorChain/collectorChainMain.png"
 import collectionChain1 from "../../../../public/project/collectorChain/collectorChain1.png"
 import collectionChain2 from "../../../../public/project/collectorChain/collectorChain2.png"
+import ainuMain from "../../../../public/project/ainu/ainuMain.png"
+import ainu1 from "../../../../public/project/ainu/IMG_8613.jpeg"
+import ainu2 from "../../../../public/project/ainu/IMG_8614.jpeg"
 
 
 interface Project {
@@ -59,15 +62,16 @@ const projects : Project[] = [
     detail2:"Chaque contrat prends en charge la gestion de rôles, le partage de revenu automatisé et la possibilité de payer les NFTs en actif numérique stable (stable coin) ",
     stack:["solidity","hardhat","open zeppelin"],
     },
-    { slug: 'perfconnect', 
-    name: 'perf connect', 
-    description: 'App IOS de coaching sportif', 
-    imageMain: perfMain,
-    image: perf1,
-    secondImage:perf2, 
-    detail1:"Application de coaching pour sportif amateur cherchant à optimiser leurs performances : endurance, vitesse, motricité, force et explosivité.",
-    detail2:"Basé sur une auto évaluation de l'utilisateur ainsi qu'un délai souhaité, l'application génère un programme d'entrainenement personalisé. L'utilisateur enregitre ses performances et a accès un coach personnel pour l'accompagner dans sa progression.",
+    { slug: 'ainu', 
+    name: 'Aïnu', 
+    description: 'App iOS : La voie des sportifs', 
+    imageMain: ainuMain,
+    image: ainu1,
+    secondImage:ainu2, 
+    detail1:"Aïnu est une application iOS communautaire sportive. Elle permet à des sporti􏰀s pratiquant une activité en extérieur de poster des in􏰀ormations sur les conditions de pratique de leur sport sur un site à un instant donné.",
+    detail2:"The application is based on geolocalized information, organized by sport and created solely by users. Its aim is to enable users to enjoy outdoor sports in the safest possible conditions.",
     stack:["swift","swift UI","X Code"],
+    link:"https://testflight.apple.com/join/CBz9u3Nz"
     },
   ];
 
