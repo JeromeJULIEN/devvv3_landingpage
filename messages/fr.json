@@ -92,6 +92,13 @@
             "description": "Smart contracts NFT",
             "detail1": "Développement d'une bibliothèque de smart contract type. Chaque smart contract sert de modèle paramètrable pour le lancement d'une nouvelle collection avec des paramètre spécifique : type de NFT, prix, supply, partage des revenues,...",
             "detail2": "Chaque contrat prends en charge la gestion de rôles, le partage de revenu automatisé et la possibilité de payer les NFTs en actif numérique stable (stable coin)."
+        },
+        "crypto-bottle": {
+            "name": "NFT Box Collection",
+            "description": "Application Crypto Bottle",
+            "detail1": "Crypto Bottle est une plateforme permettant de concevoir un NFT unique, un “super NFT” combinant l’aspect artistique, l’aspect financier et des avantages dans la vie de tout les jours.",
+            "detail2": "Chaque personne ou institution pourra devenir un 'domaine' et proposer des 'cuvées', en incorporant à chaque 'bottle' des crypto monnaie ainsi que des avantages réservés aux détenteurs.",
+            "detail3": "Developpement fullstack de l'application. Beta fermée courant T2 2024. Lancement mainnet courant T4 2024."
         }
     }
 }

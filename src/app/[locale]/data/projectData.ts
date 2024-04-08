@@ -15,6 +15,10 @@ import collectionChain2 from "../../../../public/project/collectorChain/collecto
 import ainuMain from "../../../../public/project/ainu/ainuMain.png"
 import ainu1 from "../../../../public/project/ainu/IMG_8613.jpeg"
 import ainu2 from "../../../../public/project/ainu/IMG_8614.jpeg"
+import cryptoBottleMain from "../../../../public/project/cryptobottle/cryptoBottleMain.png"
+import cryptoBottle1 from "../../../../public/project/cryptobottle/cryptoBottle1.png"
+import cryptoBottle2 from "../../../../public/project/cryptobottle/cryptoBottle2.png"
+
 
 
 interface Project {
@@ -26,6 +30,7 @@ interface Project {
     secondImage? : StaticImageData;
     detail1: string;
     detail2? : string;
+    detail3? : string;
     stack: string[],
     link? :string
   }
@@ -41,6 +46,17 @@ const projects : Project[] = [
     detail2:"The application is based on geolocalized information, organized by sport and created solely by users. Its aim is to enable users to enjoy outdoor sports in the safest possible conditions.",
     stack:["swift","swift UI","X Code"],
     link:"https://testflight.apple.com/join/CBz9u3Nz"
+    },
+    { slug: 'crypto-bottle', 
+    name: 'Crypto Bottle', 
+    description: 'marketing and investment NFTs wine inspired ', 
+    imageMain: cryptoBottleMain,
+    image: cryptoBottle1,
+    secondImage:cryptoBottle2, 
+    detail1:"Crypto Bottle est une plateforme permettant de concevoir un NFT unique, un “super NFT” combinant l’aspect artistique, l’aspect financier et des avantages dans la vie de tout les jours.",
+    detail2:'Chaque personne ou institution pourra devenir un "domaine" et proposer des "cuvées", en incorporant à chaque "bottle" des crypto monnaie ainsi que des avantages réservés aux détenteurs ',
+    detail3:"Developpement fullstack de l'application. Beta fermée courant T2 2024. Lancement mainnet courant T4 2024",
+    stack:["nextjs","react","typescript","tailwind","firebase","thirdweb"],
     },
     { slug: 'fleet-collective', 
     name: 'fleet collective', 

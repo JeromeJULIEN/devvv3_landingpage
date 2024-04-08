@@ -32,6 +32,7 @@ const ProjectPage = (props: Props) => {
                     <h3 className='text-2xl font-light tracking-widest'>Description</h3>
                     <main className='font-extralight text-neutral-500'>{t(`${props.params.projectName}.detail1`)}</main>
                     {project.detail2 !== undefined && <p className='font-extralight text-neutral-500'>{t(`${props.params.projectName}.detail2`)}</p> }
+                    {project.detail3 !== undefined && <p className='font-extralight text-neutral-500'>{t(`${props.params.projectName}.detail3`)}</p> }
                     <h3 className='text-2xl font-light tracking-widest pt-10'>{locale === "en" ? "Technical Stack" : "Stack technique"}</h3>
                     <div className='flex flex-col gap-1 font-extralight text-neutral-500'>
                         {project.stack.map(soft => 
