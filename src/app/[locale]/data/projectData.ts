@@ -31,6 +31,17 @@ interface Project {
   }
 
 const projects : Project[] = [
+  { slug: 'ainu', 
+    name: 'Aïnu', 
+    description: 'App iOS : La voie des sportifs', 
+    imageMain: ainuMain,
+    image: ainu1,
+    secondImage:ainu2, 
+    detail1:"Aïnu est une application iOS communautaire sportive. Elle permet à des sporti􏰀s pratiquant une activité en extérieur de poster des in􏰀ormations sur les conditions de pratique de leur sport sur un site à un instant donné.",
+    detail2:"The application is based on geolocalized information, organized by sport and created solely by users. Its aim is to enable users to enjoy outdoor sports in the safest possible conditions.",
+    stack:["swift","swift UI","X Code"],
+    link:"https://testflight.apple.com/join/CBz9u3Nz"
+    },
     { slug: 'fleet-collective', 
     name: 'fleet collective', 
     description: 'Site de mint de NFT', 
@@ -61,18 +72,8 @@ const projects : Project[] = [
     detail1:"Développement d'une bibliothèqye de smart contract type. Chaque smart contract sert de modèle paramètrable pour le lancement d'une nouvelle collection avec des paramètre spécifique : type de NFT, prix, supply, partage des revenues,...",
     detail2:"Chaque contrat prends en charge la gestion de rôles, le partage de revenu automatisé et la possibilité de payer les NFTs en actif numérique stable (stable coin) ",
     stack:["solidity","hardhat","open zeppelin"],
-    },
-    { slug: 'ainu', 
-    name: 'Aïnu', 
-    description: 'App iOS : La voie des sportifs', 
-    imageMain: ainuMain,
-    image: ainu1,
-    secondImage:ainu2, 
-    detail1:"Aïnu est une application iOS communautaire sportive. Elle permet à des sporti􏰀s pratiquant une activité en extérieur de poster des in􏰀ormations sur les conditions de pratique de leur sport sur un site à un instant donné.",
-    detail2:"The application is based on geolocalized information, organized by sport and created solely by users. Its aim is to enable users to enjoy outdoor sports in the safest possible conditions.",
-    stack:["swift","swift UI","X Code"],
-    link:"https://testflight.apple.com/join/CBz9u3Nz"
-    },
+    }
+    
   ];
 
 export default projects

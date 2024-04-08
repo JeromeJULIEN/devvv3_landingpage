@@ -39,7 +39,8 @@
         "title": "my offers",
         "starter": {
             "headline": "Set up your idea",
-            "price": "by item / Complete pack",
+            "price1": "from ",
+            "price2": "by item / Complete pack",
             "title1": "Workshop \"What?\"",
             "description1": "which services for which users? 👉 functional specifications 🎯",
             "title2": "Workshop \"How?\"",

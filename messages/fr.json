@@ -39,7 +39,8 @@
         "title": "Mes offres",
         "starter": {
             "headline": "Structurez votre idée",
-            "price": "par item / Pack complet",
+            "price1": "à partir de ",
+            "price2": "par item / Pack complet",
             "title1": "Atelier \"Quoi ?\"",
             "description1": "quels services pour quelles cibles ? 👉 cahier des charges fonctionnel 🎯",
             "title2": "Atelier \"Comment ?\"",
@@ -68,6 +69,12 @@
         }
     },
     "projects": {
+        "ainu": {
+            "name": "ainu",
+            "description": "App iOS : La voie du sportif",
+            "detail1": "Aïnu est une application iOS communautaire sportive. Elle permet à des sportifs pratiquant une activité en extérieur de poster des informations sur les conditions de pratique de leur sport sur un site à un instant donné.",
+            "detail2": "L’application est basée sur des informations géolocalisées,organisées par sport et créées uniquement par les utilisateurs.L’objectif de l’application est de permettre la pratique d’un sport en extérieur dans les meilleures conditions de pratique et de sécurité. Beta test en cours"
+        },
         "fleet-collective": {
             "name": "fleet collective",
             "description": "Site de mint de NFT",
@@ -85,12 +92,6 @@
             "description": "Smart contracts NFT",
             "detail1": "Développement d'une bibliothèque de smart contract type. Chaque smart contract sert de modèle paramètrable pour le lancement d'une nouvelle collection avec des paramètre spécifique : type de NFT, prix, supply, partage des revenues,...",
             "detail2": "Chaque contrat prends en charge la gestion de rôles, le partage de revenu automatisé et la possibilité de payer les NFTs en actif numérique stable (stable coin)."
-        },
-        "ainu": {
-            "name": "ainu",
-            "description": "App iOS : La voie du sportif",
-            "detail1": "Aïnu est une application iOS communautaire sportive. Elle permet à des sportifs pratiquant une activité en extérieur de poster des informations sur les conditions de pratique de leur sport sur un site à un instant donné.",
-            "detail2": "L’application est basée sur des informations géolocalisées,organisées par sport et créées uniquement par les utilisateurs.L’objectif de l’application est de permettre la pratique d’un sport en extérieur dans les meilleures conditions de pratique et de sécurité. Beta test en cours"
         }
     }
 }
