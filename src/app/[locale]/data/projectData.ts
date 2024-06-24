@@ -57,6 +57,7 @@ const projects : Project[] = [
     detail2:'Chaque personne ou institution pourra devenir un "domaine" et proposer des "cuvées", en incorporant à chaque "bottle" des crypto monnaie ainsi que des avantages réservés aux détenteurs ',
     detail3:"Developpement fullstack de l'application. Beta fermée courant T2 2024. Lancement mainnet courant T4 2024",
     stack:["nextjs","react","typescript","tailwind","firebase","thirdweb"],
+    link:"https://app.cryptobottle.fr/"
     },
     { slug: 'fleet-collective', 
     name: 'fleet collective', 
