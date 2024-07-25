@@ -1,6 +1,7 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Rubik } from 'next/font/google'
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 
 const rubik = Rubik({ subsets: ['latin'] })
@@ -32,6 +33,7 @@ export default async function LocaleLayout({children, params: {locale}}:{childre
           {children}
         </NextIntlClientProvider>
       </body>
+      <GoogleAnalytics gaId='G-QF624S56MY'/>
     </html>
   );
 }
