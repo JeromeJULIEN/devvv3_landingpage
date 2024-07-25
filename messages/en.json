@@ -1,7 +1,7 @@
 {
     "WelcomeBlock": {
-        "headline": "I help you develop your product from day one to scaling, leveraging the best of blockchain, web3, and iOS technologies",
-        "intro": "With a solid 15-year R&D experience, I adapt to your project regardless of its maturity level: from the initial concept, through prototyping, development, and up to scaling solutions. I integrate with your technical teams to support and accelerate the definition and development of your web3, blockchain, or mobile products.",
+        "headline": "I help you develop your product from day one to scaling, leveraging the best of blockchain and web3 technologies, on both Solana and Ethereum environment",
+        "intro": "With a solid 15-year R&D experience, I adapt to your project regardless of its maturity level: from the initial concept, through prototyping, development, and up to scaling solutions. I integrate with your technical teams to support and accelerate the definition and development of your web3 product, on Solana or Ethereum.",
         "intro2": "No tech team? I handle the turnkey development of your project.",
         "list": "Smart contract | Web3 front-end  | Marketplace | Digital asset | Mobile app iOS",
         "callToAction": "An idea? A question? Let's talk !"
@@ -17,11 +17,11 @@
     },
     "CompanyBlock": {
         "title": "about devvv3",
-        "intro1": "Passionate about blockchain and iOS technologies, i'm firmly convinced of the long-term impacts of decentralization and digitalization.",
+        "intro1": "Passionate about blockchain and web3 technologies, i'm firmly convinced of the long-term impacts of decentralization and digitalization.",
         "intro2": "I combine my technical expertise with my experience in project management and research & development to create the applications of tomorrow.",
         "basedIn": "based in",
         "theTeam": "the team",
-        "jeromeProfile": "Web3 and IOS developer",
+        "jeromeProfile": "Web3 fullstack developer SVM and EVM",
         "email": "send an email"
     },
     "Footer": {
@@ -54,14 +54,14 @@
             "price": "Starting from",
             "description1": "Integration with your dev team 🧑‍💻",
             "description2": "Free initial consultation to assess the need 🗒️",
-            "description3": "Frontend, smart contract, iOS scope",
+            "description3": "Frontend, smart contract, or fullstack scope",
             "description4": "Flexible development package from 5 to 20 days, usable on demand 📅",
             "description5": "Post-development technical support for 10 and 20 day packages 🚨"
         },
         "prime": {
             "headline": "Have your product developed",
             "price": "Starting from",
-            "description1": "Delivery of a turnkey web3 and/or iOS MVP 🎊",
+            "description1": "Delivery of a turnkey web3 MVP 🎊",
             "description2": "Free initial consultation to assess the need 🗒️",
             "description3": "Setting up the necessary infrastructure tools (database, user authentication, smart contract deployment and site...) 🤖",
             "description4": "One year of free maintenance 🚨",

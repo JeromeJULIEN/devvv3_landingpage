@@ -1,7 +1,7 @@
 {
     "WelcomeBlock": {
-        "headline": "Je vous aide à développer votre produit du premier jour jusqu'au scaling, en apportant le meilleur des technologies blockchain, web3 et IOS",
-        "intro": "Avec une solide expérience de 15 ans en R&D, je m'adapte à votre projet quelque soit son niveau de maturité : Du concept initial, en passant par la maquette, le développement et allant jusqu’au scaling des solutions. J’intègre vos équipes techniques pour accompagner et accélérer la définition et le développement de votre produit web3, blockchain ou mobiles.",
+        "headline": "Je vous aide à développer votre produit du premier jour jusqu'au scaling, en apportant le meilleur des technologies blockchain et web3, que ce soit dans les environnements Solana ou Ethereum",
+        "intro": "Avec une solide expérience de 15 ans en R&D, je m'adapte à votre projet quelque soit son niveau de maturité : Du concept initial, en passant par la maquette, le développement et allant jusqu’au scaling des solutions. J’intègre vos équipes techniques pour accompagner et accélérer la définition et le développement de votre produit web3, dans un environnement Solana ou Ethereum",
         "intro2": "Pas d’équipe tech ? Je prends en charge le développement clé en main de votre projet",
         "list": "Smart contract | fullstack web3 | Marketplace | Actif numérique | App mobile iOS",
         "callToAction": "Une idée ? Une question ? Parlons-en !"
@@ -17,11 +17,11 @@
     },
     "CompanyBlock": {
         "title": "devvv3 en bref",
-        "intro1": "Passionnés par les technologies blockchain et iOS, je suis fermement convaincu des impacts à long terme de la décentralisation et de la digitalisation. ",
+        "intro1": "Passionnés par les technologies blockchain et web3, je suis fermement convaincu des impacts à long terme de la décentralisation et de la digitalisation. ",
         "intro2": "Je combine mon expertise technique avec mon expérience en gestion de projets et en recherche & développement pour créer les applications de demain.",
         "basedIn": "basé sur",
         "theTeam": "l'équipe",
-        "jeromeProfile": "Développeur web3 et IOS",
+        "jeromeProfile": "Développeur fullstack web3 SVM et EVM",
         "email": "envoyer un email"
     },
     "Footer": {
@@ -54,14 +54,14 @@
             "price": "A partir de",
             "description1": "Intégration à votre équipe dev 🧑‍💻",
             "description2": "Consultation initiale gratuite pour évaluer le besoin 🗒️",
-            "description3": "Périmètre frontend, smart contract, IOS",
+            "description3": "Périmètre frontend, smart contract ou fullstack",
             "description4": "Forfait flexible de développement de 5 à 20 jours, utilisables à la demande 📅",
             "description5": "Support technique post développement pour les forfaits 10 et 20 jours 🚨"
         },
         "prime": {
             "headline": "Faites développer votre produit",
             "price": "A partir de",
-            "description1": "Livraison d’un MVP web3 et/ou IOS clé en main 🎊",
+            "description1": "Livraison d’un MVP web3 clé en main 🎊",
             "description2": "Consultation initiale gratuite pour évaluer le besoin 🗒️",
             "description3": "Mise en place des outils d’infrastructure nécessaire (base de donnée, authentification utilisateur, déploiement smart contract et site...) 🤖",
             "description4": "Maintenance offerte pendant un an 🚨",

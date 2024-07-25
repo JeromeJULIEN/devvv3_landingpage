@@ -35,12 +35,12 @@ const WelcomeBlock = (props: Props) => {
         <div className='flex flex-col gap-10 justify-between items-center min-h-screen p-10 text-white'>
             <div className='flex-grow'></div>
             <div className='h-16'></div>
-            <div className="relative w-72 sm:w-1/2 -translate-y-20 md:-translate-y-36 ">
+            <div className="relative w-72 sm:w-1/2 -translate-y-20 md:-translate-y-52 ">
                 <Image src={chevron} alt="logo_devvv3" className='absolute animate-fade-in'/>
                 <Image src={dev} alt="logo_devvv3" className='absolute animate-move-up'/>
                 <Image src={vv3} alt="logo_devvv3" className='absolute animate-move-down'/>
             </div>
-            <h1 className='text-lg md:text-2xl font-light tracking-wider animate-fade-in'>blockchain | web3 | mobile app </h1>
+            <h1 className='text-lg md:text-2xl font-light tracking-wider animate-fade-in text-center'>blockchain | web3 | decentralized app </h1>
             <h2 className='text-neutral-400  md:w-2/3 text-center animate-fade-in'>{t('headline')}</h2>
             <button onClick={scrollToRef}><Image src={downArrow} alt='downArrow' width={50} height={50} className='animate-fade-in'/></button>
             <div  className='flex-grow'></div>

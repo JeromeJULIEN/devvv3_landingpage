@@ -15,7 +15,7 @@ const InlineText = (props: Props) => {
 
   return (
     <h3 className='text-4xl md:text-5xl font-semibold text-white whitespace-nowrap'
-      style={{ transform: `translateX(${translateXValue}px)` }}><span className='text-black text-edge-outline'>DIGITAL ASSET</span> / SMART CONTRACT / <span className='text-black text-edge-outline'>NFT</span>  /FRONT END  / <span className='text-black text-edge-outline'>APP IOS</span> / MARKETPLACE / <span className='text-black text-edge-outline'>WEB3 FULLSTACK APP</span> / DIGITAL ASSET </h3>
+      style={{ transform: `translateX(${translateXValue}px)` }}><span className='text-black text-edge-outline'>DIGITAL ASSET</span> / SMART CONTRACT / <span className='text-black text-edge-outline'>NFT</span>  /FRONT END  / <span className='text-black text-edge-outline'>MARKETPLACE</span> / SOLANA & ETHEREUM / <span className='text-black text-edge-outline'>WEB3 FULLSTACK APP</span> / DIGITAL ASSET </h3>
   )
 }
 

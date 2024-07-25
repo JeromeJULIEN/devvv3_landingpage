@@ -1,7 +1,7 @@
 import React from 'react'
 import Particles from './particles'
 import StackCard from './StackCard'
-import { web3Stack,blockchainStack,iosStack } from '../data/stackData'
+import { web3Stack,EVMStack,SVMStack,iosStack } from '../data/stackData'
 import {useTranslations,useLocale} from 'next-intl'
 
 type Props = {}
@@ -23,19 +23,15 @@ const StackBlock = (props: Props) => {
                 <StackCard key={soft.name} logo={soft.logo} name={soft.name}/>
             )}
         </div>
-        <h3 className='text-white text-2xl pt-10 font-semibold text-center'>BLOCKCHAIN / <span className='text-cyan-500'>SMART CONTRACT</span></h3>
+        <h3 className='text-white text-2xl pt-10 font-semibold text-center'>BLOCKCHAIN / <span className='text-cyan-500'>ETHEREUM</span></h3>
         <div className='flex justify-center gap-10 flex-wrap w-full md:w-1/2'>
-            {blockchainStack.map(soft => 
+            {EVMStack.map(soft => 
                 <StackCard key={soft.name} logo={soft.logo} name={soft.name}/>
             )}
         </div>
-        {locale ==="en" ?
-        <h3 className='text-white text-2xl pt-10 font-semibold text-center'><span className='text-cyan-500'>IOS </span>APPLICATION </h3>
-        :
-        <h3 className='text-white text-2xl pt-10 font-semibold text-center'>APPLICATION <span className='text-cyan-500'> IOS</span></h3>
-        }
+        <h3 className='text-white text-2xl pt-10 font-semibold text-center'>BLOCKCHAIN / <span className='text-cyan-500'>SOLANA</span></h3>
         <div className='flex justify-center gap-10 flex-wrap w-full md:w-1/2'>
-            {iosStack.map(soft => 
+            {SVMStack.map(soft => 
                 <StackCard key={soft.name} logo={soft.logo} name={soft.name}/>
             )}
         </div>
