@@ -10,7 +10,7 @@ const OfferPrime = (props: Props) => {
     return (
         <div className='flex flex-col item-center gap-4 text-white md:w-1/3 border border-gray-500 rounded-lg p-4'>
             <h3 className='text-3xl'><strong>Prime kit : </strong>{t('prime.headline')}</h3>
-            <h4 className='text-xl text-cyan-500 pb-6'>{t('prime.price')}<strong> 9900€</strong></h4>
+            <h4 className='text-xl text-cyan-500 pb-6'>{t('prime.price')}<strong> 10000€</strong></h4>
             <p><strong>&#x2714; </strong>{t('prime.description1')}</p>
             <p><strong>&#x2714; </strong>{t('prime.description2')}</p>
             <p><strong>&#x2714; </strong>{t('prime.description3')}</p>
