@@ -45,7 +45,6 @@ const projects : Project[] = [
     detail1:"Aïnu est une application iOS communautaire sportive. Elle permet à des sporti􏰀s pratiquant une activité en extérieur de poster des in􏰀ormations sur les conditions de pratique de leur sport sur un site à un instant donné.",
     detail2:"The application is based on geolocalized information, organized by sport and created solely by users. Its aim is to enable users to enjoy outdoor sports in the safest possible conditions.",
     stack:["swift","swift UI","X Code"],
-    link:"https://testflight.apple.com/join/CBz9u3Nz"
     },
     { slug: 'crypto-bottle', 
     name: 'Crypto Bottle', 
