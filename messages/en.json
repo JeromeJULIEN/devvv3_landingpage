@@ -1,105 +1,105 @@
 {
-    "WelcomeBlock": {
-        "headline": "I help you develop your product from day one to scaling, leveraging the best of blockchain and web3 technologies, on both Solana and Ethereum environments",
-        "intro": "With a solid 15-year R&D experience, I adapt to your project regardless of its maturity level: from the initial concept, through prototyping, development, and up to scaling solutions. I integrate with your technical teams to support and accelerate the definition and development of your web3 product, on Solana or Ethereum.",
-        "intro2": "No tech team? I handle the turnkey development of your project.",
-        "list": "Smart contract | Web3 front-end  | Marketplace | Digital asset | Mobile app iOS",
-        "callToAction": "An idea? A question? Let's talk !"
+  "WelcomeBlock": {
+    "headline": "I help you develop your product from day one to scaling, leveraging the best of blockchain and web3 technologies, on both Solana and Ethereum environments",
+    "intro": "With a solid 15-year R&D experience, I adapt to your project regardless of its maturity level: from the initial concept, through prototyping, development, and up to scaling solutions. I integrate with your technical teams to support and accelerate the definition and development of your web3 product, on Solana or Ethereum.",
+    "intro2": "No tech team? I handle the turnkey development of your project.",
+    "list": "Smart contract | Web3 front-end  | Marketplace | Digital asset | Mobile app iOS",
+    "callToAction": "An idea? A question? Let's talk !"
+  },
+  "ProjectBlock": {
+    "title": "projects",
+    "intro": "Below are some of my latest projects"
+  },
+  "StackBlock": {
+    "title": "technical stack",
+    "intro": "At devvv3, we're using the most advanced tools for project development and we constantly keep up to date with the latest technological developments.",
+    "decentralisedApp": "decentralised app"
+  },
+  "CompanyBlock": {
+    "title": "about devvv3",
+    "intro1": "Passionate about blockchain and web3 technologies, i'm firmly convinced of the long-term impacts of decentralization and digitalization.",
+    "intro2": "I combine my technical expertise with my experience in project management and research & development to create the applications of tomorrow.",
+    "basedIn": "based in",
+    "theTeam": "the team",
+    "jeromeProfile": "Web3 fullstack developer SVM and EVM",
+    "email": "send an email"
+  },
+  "Footer": {
+    "copyright": "All right reserved",
+    "joke": "Website developed with interstellar original music"
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, fr {Français} en {English} other {Unknown}}"
+  },
+  "MeetingButton": {
+    "text": "Book a meeting"
+  },
+  "offer": {
+    "title": "my offers",
+    "starter": {
+      "headline": "Set up your idea",
+      "price1": "from ",
+      "price2": "by item / Complete pack",
+      "title1": "Workshop \"What?\"",
+      "description1": "which services for which users? 👉 functional specifications 🎯",
+      "title2": "Workshop \"How?\"",
+      "description2": "what technical solutions for which services? 👉 technical specifications ✅",
+      "title3": "Interactive visual prototype",
+      "description3": "Present and share your project as if it were real with an interactive visual prototype 💥📱",
+      "description4": "One week top time for all deliverables ⏰"
     },
-    "ProjectBlock": {
-        "title": "projects",
-        "intro": "Below are some of my latest projects"
+    "booster": {
+      "headline": "Accelerate your development",
+      "price": "Starting from",
+      "description1": "Integration with your dev team 🧑‍💻",
+      "description2": "Free initial consultation to assess the need 🗒️",
+      "description3": "Frontend, smart contract, or fullstack scope",
+      "description4": "Flexible development package from 5 to 20 days, usable on demand 📅",
+      "description5": "Post-development technical support for 10 and 20 day packages 🚨"
     },
-    "StackBlock": {
-        "title": "technical stack",
-        "intro": "At devvv3, we're using the most advanced tools for project development and we constantly keep up to date with the latest technological developments.",
-        "decentralisedApp": "decentralised app"
-    },
-    "CompanyBlock": {
-        "title": "about devvv3",
-        "intro1": "Passionate about blockchain and web3 technologies, i'm firmly convinced of the long-term impacts of decentralization and digitalization.",
-        "intro2": "I combine my technical expertise with my experience in project management and research & development to create the applications of tomorrow.",
-        "basedIn": "based in",
-        "theTeam": "the team",
-        "jeromeProfile": "Web3 fullstack developer SVM and EVM",
-        "email": "send an email"
-    },
-    "Footer": {
-        "copyright": "All right reserved",
-        "joke": "Website developed with interstellar original music"
-    },
-    "LocaleSwitcher": {
-        "label": "Change language",
-        "locale": "{locale, select, fr {Français} en {English} other {Unknown}}"
-    },
-    "MeetingButton": {
-        "text": "Book a meeting"
-    },
-    "offer": {
-        "title": "my offers",
-        "starter": {
-            "headline": "Set up your idea",
-            "price1": "from ",
-            "price2": "by item / Complete pack",
-            "title1": "Workshop \"What?\"",
-            "description1": "which services for which users? 👉 functional specifications 🎯",
-            "title2": "Workshop \"How?\"",
-            "description2": "what technical solutions for which services? 👉 technical specifications ✅",
-            "title3": "Interactive visual prototype",
-            "description3": "Present and share your project as if it were real with an interactive visual prototype 💥📱",
-            "description4": "One week top time for all deliverables ⏰"
-        },
-        "booster": {
-            "headline": "Accelerate your development",
-            "price": "Starting from",
-            "description1": "Integration with your dev team 🧑‍💻",
-            "description2": "Free initial consultation to assess the need 🗒️",
-            "description3": "Frontend, smart contract, or fullstack scope",
-            "description4": "Flexible development package from 5 to 20 days, usable on demand 📅",
-            "description5": "Post-development technical support for 10 and 20 day packages 🚨"
-        },
-        "prime": {
-            "headline": "Have your product developed",
-            "price": "Starting from",
-            "description1": "Delivery of a turnkey web3 MVP 🎊",
-            "description2": "Free initial consultation to assess the need 🗒️",
-            "description3": "Setting up the necessary infrastructure tools (database, user authentication, smart contract deployment and site...) 🤖",
-            "description4": "One year of free maintenance 🚨",
-            "description5": "Priority development ⏩"
-        }
-    },
-    "projects": {
-        "fleet-collective": {
-            "name": "fleet collective",
-            "description": "NFT minting website",
-            "detail1": "Fleet collective membership card minting site. The mint is conditional on belonging to the collective's discord server as well as holding certain specific roles.",
-            "detail2": "The discord API is used to verify the information necessary to access the mint function. The collection's smart contract is managed through thirdweb.",
-            "imageMain": "/public/project/fleet/fleetMain.png"
-        },
-        "collector-chain": {
-            "name": "collector chain",
-            "description": "Collectors tokenisation and fractionalisation",
-            "detail1": "With Collector Chain, create, buy and sell digitalized and fractionated physical collectibles. Collector Chain is a platform which ease your collector hobby thanks to shares fractionalization.",
-            "detail2": "Anyone can ask for fractionalisation of any object. The curation and valuation are done by experts. Moreover, by acquiring real ownership shares of the object instead of the real object, collect is becoming more sustainable by avoiding new object production pressure."
-        },
-        "confidential-customer": {
-            "name": "confidential customer",
-            "description": "NFT smart contracts",
-            "detail1": "Development of a standard smart contract template library. Each smart contract serves as a configurable model for the launch of a new collection with specific parameters: type of NFT, price, supply, revenue sharing, etc.",
-            "detail2": "Each contract supports role management, automated revenue sharing and the ability to pay for NFTs in stable digital assets (stable coins)."
-        },
-        "ainu": {
-            "name": "aïnu",
-            "description": "iOS app : the sportsman's way",
-            "detail1": "Aïnu is an iOS community sports application. It enables outdoor sportsmen and women to post information on the conditions in which they are practicing their sport on a given site at a given time.",
-            "detail2": "Based on a user self-assessment as well as a desired time frame, the application generates a personalized training program. The user records their performance and has access to a personal coach to support them in their progress. Beta test ongoing."
-        },
-        "crypto-bottle": {
-            "name": "NFT Box Collection",
-            "description": "Crypto Bottle app",
-            "detail1": "Crypto Bottle is a platform for designing unique NFTs, like 'super NFTs' combining artistic, financial and everyday benefits",
-            "detail2": "Each person or institution will be able to become a 'domain' and offer 'cuvée', incorporating crypto-currencies into each 'bottle' as well as benefits reserved for holders.",
-            "detail3": "Fullstack application development. Closed beta ongoing. Mainnet launch in Q4 2024."
-        }
+    "prime": {
+      "headline": "Have your product developed",
+      "price": "Starting from",
+      "description1": "Delivery of a turnkey web3 MVP 🎊",
+      "description2": "Free initial consultation to assess the need 🗒️",
+      "description3": "Setting up the necessary infrastructure tools (database, user authentication, smart contract deployment and site...) 🤖",
+      "description4": "One year of free maintenance 🚨",
+      "description5": "Priority development ⏩"
     }
+  },
+  "projects": {
+    "fleet-collective": {
+      "name": "fleet collective",
+      "description": "NFT minting website",
+      "detail1": "Fleet collective membership card minting site. The mint is conditional on belonging to the collective's discord server as well as holding certain specific roles.",
+      "detail2": "The discord API is used to verify the information necessary to access the mint function. The collection's smart contract is managed through thirdweb.",
+      "imageMain": "/public/project/fleet/fleetMain.png"
+    },
+    "collector-chain": {
+      "name": "collector chain",
+      "description": "Collectors tokenisation and fractionalisation",
+      "detail1": "With Collector Chain, create, buy and sell digitalized and fractionated physical collectibles. Collector Chain is a platform which ease your collector hobby thanks to shares fractionalization.",
+      "detail2": "Anyone can ask for fractionalisation of any object. The curation and valuation are done by experts. Moreover, by acquiring real ownership shares of the object instead of the real object, collect is becoming more sustainable by avoiding new object production pressure."
+    },
+    "confidential-customer": {
+      "name": "confidential customer",
+      "description": "NFT smart contracts",
+      "detail1": "Development of a standard smart contract template library. Each smart contract serves as a configurable model for the launch of a new collection with specific parameters: type of NFT, price, supply, revenue sharing, etc.",
+      "detail2": "Each contract supports role management, automated revenue sharing and the ability to pay for NFTs in stable digital assets (stable coins)."
+    },
+    "ainu": {
+      "name": "aïnu",
+      "description": "iOS app : the sportsman's way",
+      "detail1": "Aïnu is an iOS community sports application. It enables outdoor sportsmen and women to post information on the conditions in which they are practicing their sport on a given site at a given time.",
+      "detail2": "The application is based on geolocated information, organized by sport and created solely by users. The goal of the application is to enable outdoor sports practice in the best conditions for both performance and safety. Beta testing is currently underway."
+    },
+    "crypto-bottle": {
+      "name": "NFT Box Collection",
+      "description": "Crypto Bottle app",
+      "detail1": "Crypto Bottle is a platform for designing unique NFTs, like 'super NFTs' combining artistic, financial and everyday benefits",
+      "detail2": "Each person or institution will be able to become a 'domain' and offer 'cuvée', incorporating crypto-currencies into each 'bottle' as well as benefits reserved for holders.",
+      "detail3": "Fullstack application development. Closed beta ongoing. Mainnet launch in Q4 2024."
+    }
+  }
 }
