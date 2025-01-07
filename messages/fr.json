@@ -1,104 +1,116 @@
 {
-    "WelcomeBlock": {
-        "headline": "Je vous aide à développer votre produit du premier jour jusqu'au scaling, en apportant le meilleur des technologies blockchain et web3, que ce soit dans les environnements Solana ou Ethereum",
-        "intro": "Avec une solide expérience de 15 ans en R&D, je m'adapte à votre projet quelque soit son niveau de maturité : Du concept initial, en passant par la maquette, le développement et allant jusqu’au scaling des solutions. J’intègre vos équipes techniques pour accompagner et accélérer la définition et le développement de votre produit web3, dans un environnement Solana ou Ethereum",
-        "intro2": "Pas d’équipe tech ? Je prends en charge le développement clé en main de votre projet",
-        "list": "Smart contract | fullstack web3 | Marketplace | Actif numérique | App mobile iOS",
-        "callToAction": "Une idée ? Une question ? Parlons-en !"
+  "WelcomeBlock": {
+    "headline": "Je vous aide à développer votre produit du premier jour jusqu'au scaling, en apportant le meilleur des technologies blockchain et web3, que ce soit dans les environnements Solana ou Ethereum",
+    "intro": "Avec une solide expérience de 15 ans en R&D, je m'adapte à votre projet quelque soit son niveau de maturité : Du concept initial, en passant par la maquette, le développement et allant jusqu’au scaling des solutions. J’intègre vos équipes techniques pour accompagner et accélérer la définition et le développement de votre produit web3, dans un environnement Solana ou Ethereum",
+    "intro2": "Pas d’équipe tech ? Je prends en charge le développement clé en main de votre projet",
+    "list": "Smart contract | fullstack web3 | Marketplace | Actif numérique | App mobile iOS",
+    "callToAction": "Une idée ? Une question ? Parlons-en !"
+  },
+  "ProjectBlock": {
+    "title": "projets",
+    "intro": "Voici quelques-un de mes derniers projets"
+  },
+  "StackBlock": {
+    "title": "stack technique",
+    "intro": "Pour votre projet, j'utiliserai les outils de développement les plus avancés et efficace. Je me tiens constamment à jour avec les dernières évolutions technologiques.",
+    "decentralisedApp": "app décentralisée"
+  },
+  "CompanyBlock": {
+    "title": "A propos de moi",
+    "intro1": "Passionnés par les technologies blockchain et web3, je suis fermement convaincu des impacts à long terme de la décentralisation et de la digitalisation. ",
+    "intro2": "Je combine mon expertise technique avec mon expérience en gestion de projets et en recherche & développement pour créer les applications de demain.",
+    "basedIn": "basé sur",
+    "theTeam": "l'équipe",
+    "jeromeProfile": "Développeur fullstack web3 SVM et EVM",
+    "email": "envoyer un email"
+  },
+  "Footer": {
+    "copyright": "Tout droit réservé",
+    "joke": "Site développé avec la BO d’interstellar"
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, fr {Français} en {English} other {Unknown}}"
+  },
+  "MeetingButton": {
+    "text": "Prendre un rdv"
+  },
+  "offer": {
+    "title": "Mes offres",
+    "starter": {
+      "headline": "Structurez votre idée",
+      "price1": "à partir de ",
+      "price2": "par item / Pack complet",
+      "title1": "Atelier \"Quoi ?\"",
+      "description1": "quels services pour quelles cibles ? 👉 cahier des charges fonctionnel 🎯",
+      "title2": "Atelier \"Comment ?\"",
+      "description2": "quelles solutions techniques pour quels services ? 👉 cahier des charges technique ✅",
+      "title3": "Maquette visuelle interactive",
+      "description3": "Présenter et partager votre projet comme s’il était réel avec une maquette visuelle interactive 💥📱",
+      "description4": "Une semaine top chrono pour l’ensemble des livrables ⏰"
     },
-    "ProjectBlock": {
-        "title": "projets",
-        "intro": "Voici quelques-un de mes derniers projets"
+    "booster": {
+      "headline": "Accélérez votre développement",
+      "price": "A partir de",
+      "description1": "Intégration à votre équipe dev 🧑‍💻",
+      "description2": "Consultation initiale gratuite pour évaluer le besoin 🗒️",
+      "description3": "Périmètre frontend, smart contract ou fullstack",
+      "description4": "Forfait flexible de développement de 5 à 20 jours, utilisables à la demande 📅",
+      "description5": "Support technique post développement pour les forfaits 10 et 20 jours 🚨"
     },
-    "StackBlock": {
-        "title": "stack technique",
-        "intro": "Pour votre projet, j'utiliserai les outils de développement les plus avancés et efficace. Je me tiens constamment à jour avec les dernières évolutions technologiques.",
-        "decentralisedApp": "app décentralisée"
-    },
-    "CompanyBlock": {
-        "title": "devvv3 en bref",
-        "intro1": "Passionnés par les technologies blockchain et web3, je suis fermement convaincu des impacts à long terme de la décentralisation et de la digitalisation. ",
-        "intro2": "Je combine mon expertise technique avec mon expérience en gestion de projets et en recherche & développement pour créer les applications de demain.",
-        "basedIn": "basé sur",
-        "theTeam": "l'équipe",
-        "jeromeProfile": "Développeur fullstack web3 SVM et EVM",
-        "email": "envoyer un email"
-    },
-    "Footer": {
-        "copyright": "Tout droit réservé",
-        "joke": "Site développé avec la BO d’interstellar"
-    },
-    "LocaleSwitcher": {
-        "label": "Change language",
-        "locale": "{locale, select, fr {Français} en {English} other {Unknown}}"
-    },
-    "MeetingButton": {
-        "text": "Prendre un rdv"
-    },
-    "offer": {
-        "title": "Mes offres",
-        "starter": {
-            "headline": "Structurez votre idée",
-            "price1": "à partir de ",
-            "price2": "par item / Pack complet",
-            "title1": "Atelier \"Quoi ?\"",
-            "description1": "quels services pour quelles cibles ? 👉 cahier des charges fonctionnel 🎯",
-            "title2": "Atelier \"Comment ?\"",
-            "description2": "quelles solutions techniques pour quels services ? 👉 cahier des charges technique ✅",
-            "title3": "Maquette visuelle interactive",
-            "description3": "Présenter et partager votre projet comme s’il était réel avec une maquette visuelle interactive 💥📱",
-            "description4": "Une semaine top chrono pour l’ensemble des livrables ⏰"
-        },
-        "booster": {
-            "headline": "Accélérez votre développement",
-            "price": "A partir de",
-            "description1": "Intégration à votre équipe dev 🧑‍💻",
-            "description2": "Consultation initiale gratuite pour évaluer le besoin 🗒️",
-            "description3": "Périmètre frontend, smart contract ou fullstack",
-            "description4": "Forfait flexible de développement de 5 à 20 jours, utilisables à la demande 📅",
-            "description5": "Support technique post développement pour les forfaits 10 et 20 jours 🚨"
-        },
-        "prime": {
-            "headline": "Faites développer votre produit",
-            "price": "A partir de",
-            "description1": "Livraison d’un MVP web3 clé en main 🎊",
-            "description2": "Consultation initiale gratuite pour évaluer le besoin 🗒️",
-            "description3": "Mise en place des outils d’infrastructure nécessaire (base de donnée, authentification utilisateur, déploiement smart contract et site...) 🤖",
-            "description4": "Maintenance offerte pendant un an 🚨",
-            "description5": "Développement prioritaire ⏩"
-        }
-    },
-    "projects": {
-        "ainu": {
-            "name": "ainu",
-            "description": "App iOS : La voie du sportif",
-            "detail1": "Aïnu est une application iOS communautaire sportive. Elle permet à des sportifs pratiquant une activité en extérieur de poster des informations sur les conditions de pratique de leur sport sur un site à un instant donné.",
-            "detail2": "L’application est basée sur des informations géolocalisées,organisées par sport et créées uniquement par les utilisateurs.L’objectif de l’application est de permettre la pratique d’un sport en extérieur dans les meilleures conditions de pratique et de sécurité. Beta test en cours"
-        },
-        "fleet-collective": {
-            "name": "fleet collective",
-            "description": "Site de mint de NFT",
-            "detail1": "Site de mint de carte de membre du collectif Fleet. Le mint est conditionnel à l’appartenance au serveur discord du collectif ainsi qu’à la détention de certains rôles spécifique.",
-            "detail2": "L’api de discord est utilisée pour vérifier les informations nécessaires à l’accès à la fonction de mint. Le smart contract de la collection est géré via thirdweb "
-        },
-        "collector-chain": {
-            "name": "collector chain",
-            "description": "Tokénisation et fractionalisation d'objets",
-            "detail1": "Avec Collector Chain, créez, achetez et vendez des objets de collection physiques numérisés et fractionnés. Collector Chain est une plateforme qui facilite votre hobby de collectionneur grâce au fractionnement des objets.",
-            "detail2": "N’importe qui peut demander le fractionnement de n’importe quel objet. La conservation et la valorisation sont effectuées par des experts. De plus, en acquérant des parts de propriété réelles de l'objet au lieu de l'objet réel, la collection devient plus durable en évitant la pression de production de nouveaux objets."
-        },
-        "confidential-customer": {
-            "name": "client confidentiel",
-            "description": "Smart contracts NFT",
-            "detail1": "Développement d'une bibliothèque de smart contract type. Chaque smart contract sert de modèle paramètrable pour le lancement d'une nouvelle collection avec des paramètre spécifique : type de NFT, prix, supply, partage des revenues,...",
-            "detail2": "Chaque contrat prends en charge la gestion de rôles, le partage de revenu automatisé et la possibilité de payer les NFTs en actif numérique stable (stable coin)."
-        },
-        "crypto-bottle": {
-            "name": "NFT Box Collection",
-            "description": "Application Crypto Bottle",
-            "detail1": "Crypto Bottle est une plateforme permettant de concevoir un NFT unique, un “super NFT” combinant l’aspect artistique, l’aspect financier et des avantages dans la vie de tout les jours.",
-            "detail2": "Chaque personne ou institution pourra devenir un 'domaine' et proposer des 'cuvées', en incorporant à chaque 'bottle' des crypto monnaie ainsi que des avantages réservés aux détenteurs.",
-            "detail3": "Developpement fullstack de l'application. Beta fermée en cours. Lancement mainnet courant T4 2024."
-        }
+    "prime": {
+      "headline": "Faites développer votre produit",
+      "price": "A partir de",
+      "description1": "Livraison d’un MVP web3 clé en main 🎊",
+      "description2": "Consultation initiale gratuite pour évaluer le besoin 🗒️",
+      "description3": "Mise en place des outils d’infrastructure nécessaire (base de donnée, authentification utilisateur, déploiement smart contract et site...) 🤖",
+      "description4": "Maintenance offerte pendant un an 🚨",
+      "description5": "Développement prioritaire ⏩"
     }
+  },
+  "projects": {
+    "rogala-art": {
+      "name": "RogalaGallery.art",
+      "description": "Gallerie d'art et mint de NFT",
+      "detail1": "Une galerie d'art et un site de mint de NFT entièrement personnalisé développé pour Miroslaw Rogala, un artiste polonais, pionnier dans le domaine de l'art numérique au début des années 80.",
+      "detail2": "Basé sur la blockchain ethereum et le standard ERC721, le site permet aux collectionneurs de visiter la galerie, d'acheter et de et de minter des œuvres d'art, de parcourir leurs œuvres d'art, et de télécharger des factures."
+    },
+    "fc-shiba": {
+      "name": "Fc Shiba",
+      "description": "Le football reinventé avec le web3",
+      "detail1": "Une première étape vers le football décentralisé. Possédez le Club, prenez des décisions, soyez récompensé, portez fièrement vos couleurs, profitez des événements et des expériences, financez des œuvres sociales et caritatives, diffusez des valeurs communes, remodeler le football.",
+      "detail2": "Le projet est lancé sur la blockchain Shiba avec la vente d'une première collection de NFT de membres du club. J'ai développé l'ensemble du site de mint et des smart contracts."
+    },
+    "ainu": {
+      "name": "ainu",
+      "description": "App iOS : La voie du sportif",
+      "detail1": "Aïnu est une application iOS communautaire sportive. Elle permet à des sportifs pratiquant une activité en extérieur de poster des informations sur les conditions de pratique de leur sport sur un site à un instant donné.",
+      "detail2": "L’application est basée sur des informations géolocalisées,organisées par sport et créées uniquement par les utilisateurs.L’objectif de l’application est de permettre la pratique d’un sport en extérieur dans les meilleures conditions de pratique et de sécurité. Beta test en cours"
+    },
+    "fleet-collective": {
+      "name": "fleet collective",
+      "description": "Site de mint de NFT",
+      "detail1": "Site de mint de carte de membre du collectif Fleet. Le mint est conditionnel à l’appartenance au serveur discord du collectif ainsi qu’à la détention de certains rôles spécifique.",
+      "detail2": "L’api de discord est utilisée pour vérifier les informations nécessaires à l’accès à la fonction de mint. Le smart contract de la collection est géré via thirdweb "
+    },
+    "collector-chain": {
+      "name": "collector chain",
+      "description": "Tokénisation et fractionalisation d'objets",
+      "detail1": "Avec Collector Chain, créez, achetez et vendez des objets de collection physiques numérisés et fractionnés. Collector Chain est une plateforme qui facilite votre hobby de collectionneur grâce au fractionnement des objets.",
+      "detail2": "N’importe qui peut demander le fractionnement de n’importe quel objet. La conservation et la valorisation sont effectuées par des experts. De plus, en acquérant des parts de propriété réelles de l'objet au lieu de l'objet réel, la collection devient plus durable en évitant la pression de production de nouveaux objets."
+    },
+    "confidential-customer": {
+      "name": "client confidentiel",
+      "description": "Smart contracts NFT",
+      "detail1": "Développement d'une bibliothèque de smart contract type. Chaque smart contract sert de modèle paramètrable pour le lancement d'une nouvelle collection avec des paramètre spécifique : type de NFT, prix, supply, partage des revenues,...",
+      "detail2": "Chaque contrat prends en charge la gestion de rôles, le partage de revenu automatisé et la possibilité de payer les NFTs en actif numérique stable (stable coin)."
+    },
+    "crypto-bottle": {
+      "name": "Crypto Bottle",
+      "description": "Créez et collectionnez des NFT contenant des crypto-monnaies",
+      "detail1": "Crypto Bottle est une plateforme permettant de concevoir un NFT unique, un “super NFT” combinant l’aspect artistique, l’aspect financier et des avantages dans la vie de tout les jours.",
+      "detail2": "Chaque personne ou institution pourra devenir un 'domaine' et proposer des 'cuvées', en incorporant à chaque 'bottle' des crypto monnaie ainsi que des avantages réservés aux détenteurs.",
+      "detail3": "Developpement fullstack web2 et intégration web3 de l'application."
+    }
+  }
 }

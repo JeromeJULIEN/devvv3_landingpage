@@ -16,7 +16,7 @@
     "decentralisedApp": "decentralised app"
   },
   "CompanyBlock": {
-    "title": "about devvv3",
+    "title": "about me",
     "intro1": "Passionate about blockchain and web3 technologies, i'm firmly convinced of the long-term impacts of decentralization and digitalization.",
     "intro2": "I combine my technical expertise with my experience in project management and research & development to create the applications of tomorrow.",
     "basedIn": "based in",
@@ -69,6 +69,18 @@
     }
   },
   "projects": {
+    "rogala-art": {
+      "name": "RogalaGallery.art",
+      "description": "Art gallery and minting website",
+      "detail1": "A fully customized art gallery and minting website developed for Miroslaw Rogala, a Polish artist, pionner in the field of digital art in early 80's.",
+      "detail2": "Based on ethereum blockchain and ERC721 standard, the website allows collectors to visit the gallery, buy and mint artworks, browse their artworks, and download invoices."
+    },
+    "fc-shiba": {
+      "name": "Fc Shiba",
+      "description": "Football reinvented with web3",
+      "detail1": "Your 1st step in Decentralized Football. Owned the Club, make decisions, get rewarded, wear your colors proudly, enjoy events & experiences, fund social & charity, spread common values, reshape Football.",
+      "detail2": "The project is launched on the Shiba blockchain with the sale of the first collection of NFTs of club members. I developed the entire mint site and smart contracts."
+    },
     "fleet-collective": {
       "name": "fleet collective",
       "description": "NFT minting website",
@@ -95,11 +107,11 @@
       "detail2": "The application is based on geolocated information, organized by sport and created solely by users. The goal of the application is to enable outdoor sports practice in the best conditions for both performance and safety. Beta testing is currently underway."
     },
     "crypto-bottle": {
-      "name": "NFT Box Collection",
-      "description": "Crypto Bottle app",
+      "name": "Crypto Bottle",
+      "description": "Create and collect NFTs containing crypto-currencies",
       "detail1": "Crypto Bottle is a platform for designing unique NFTs, like 'super NFTs' combining artistic, financial and everyday benefits",
       "detail2": "Each person or institution will be able to become a 'domain' and offer 'cuvée', incorporating crypto-currencies into each 'bottle' as well as benefits reserved for holders.",
-      "detail3": "Fullstack application development. Closed beta ongoing. Mainnet launch in Q4 2024."
+      "detail3": "Fullstack web2 and web3 integration of the app."
     }
   }
 }
