@@ -6,8 +6,37 @@ import { GoogleAnalytics } from "@next/third-parties/google";
 const rubik = Rubik({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "devvv3",
-  description: "blockchain, web3 and decentralized applications development",
+  title: "devvv3 | Blockchain & Web3 Freelance Developer",
+  description:
+    "Freelance web3 fullstack developer, Ethereum & Solana smart contracts, and decentralized web3 applications.",
+  keywords:
+    "blockchain, web3, ethereum, solana, smart contracts, dapp, freelance developer, defi, nft, fullstack",
+  openGraph: {
+    title: "devvv3 | Blockchain & Web3 Freelance Developer",
+    description:
+      "Freelance web3 fullstack developer, Ethereum & Solana smart contracts, and decentralized web3 applications.",
+    type: "website",
+    locale: "en_US",
+    siteName: "devvv3",
+    url: "https://www.devvv3.com",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "devvv3 | Blockchain & Web3 Freelance Developer",
+    description:
+      "Freelance web3 fullstack developer, Ethereum & Solana smart contracts, and decentralized web3 applications.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  alternates: {
+    canonical: "https://devvv3.com",
+    languages: {
+      en: "https://devvv3.com/en",
+      fr: "https://devvv3.com/fr",
+    },
+  },
 };
 
 import { NextIntlClientProvider } from "next-intl";
