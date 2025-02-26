@@ -38,7 +38,7 @@ const projects: Project[] = [
   {
     slug: "rogala-art",
     name: "Rogala Art",
-    description: "Art gallery and minting website",
+    description: "Art gallery and NFT minting website",
     imageMain: rogalaMain,
     image: rogala1,
     secondImage: rogala2,
@@ -62,7 +62,7 @@ const projects: Project[] = [
   {
     slug: "fc-shiba",
     name: "FC Shiba",
-    description: "Football reinvented with web3",
+    description: "Football reinvented with web3 and NFTs",
     imageMain: fcShibaMain,
     image: fcShiba1,
     secondImage: fcShiba2,
@@ -86,7 +86,7 @@ const projects: Project[] = [
   {
     slug: "ainu",
     name: "Aïnu",
-    description: "App iOS : La voie des sportifs",
+    description: "App iOS : Sport community app",
     imageMain: ainuMain,
     image: ainu1,
     secondImage: ainu2,
@@ -122,7 +122,7 @@ const projects: Project[] = [
   {
     slug: "fleet-collective",
     name: "fleet collective",
-    description: "Site de mint de NFT",
+    description: "Membership NFT minting website",
     imageMain: fleetMain,
     image: fleet1,
     secondImage: fleet2,

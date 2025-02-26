@@ -1,30 +1,42 @@
+import React from "react";
 
-'use client'
-import React from 'react'
-import { useRouter } from 'next/navigation'
-import {useLocale} from "next-intl"
-import { Metadata } from 'next'
+import ProjectLayoutClientComponant from "./ProjectLayoutClientComponant";
+import projects from "../../data/projectData";
 
 type Props = {
-    children : React.ReactNode
+  children: React.ReactNode;
+  params: {
+    projectName: string;
+  };
+};
+
+export async function generateMetadata(props: Props) {
+  const project = projects.find((p) => p.slug === props.params.projectName);
+  return {
+    title: `${project?.name} | devvv3 - Web3 and Blockchain freelance developer`,
+    description: project?.description,
+    openGraph: {
+      title: `${project?.name}`,
+      description: project?.description,
+      type: "article",
+      images: [
+        {
+          url: "https://www.devvv3.com/devvv3.png",
+          width: 1000,
+          height: 1000,
+          alt: `${project?.name}`,
+        },
+      ],
+    },
+  };
 }
-
-
-
 
 const ProjectLayout = (props: Props) => {
-  const router = useRouter()
-  const locale = useLocale()
-
   return (
-    <nav className='flex flex-col bg-white w-full p-10 gap-10'>
-        <button className='flex items-center gap-2' onClick={()=>router.back()}>
-            <p className='text-2xl'>&lt;&lt;&lt; </p>
-            <p className='text-xl'>{locale === "en" ? "Back" : "Retour"} </p>
-        </button>
-        {props.children}
-    </nav>
-  )
-}
+    <ProjectLayoutClientComponant>
+      {props.children}
+    </ProjectLayoutClientComponant>
+  );
+};
 
-export default ProjectLayout
+export default ProjectLayout;

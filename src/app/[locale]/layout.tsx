@@ -6,9 +6,10 @@ import { GoogleAnalytics } from "@next/third-parties/google";
 const rubik = Rubik({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.devvv3.com"),
   title: "devvv3 | Blockchain & Web3 Freelance Developer",
   description:
-    "Freelance web3 fullstack developer, Ethereum & Solana smart contracts, and decentralized web3 applications.",
+    "Freelance web3 fullstack developer, Ethereum & Solana smart contracts, and decentralized web3 applications. Based in Marseille, France.",
   keywords:
     "blockchain, web3, ethereum, solana, smart contracts, dapp, freelance developer, defi, nft, fullstack",
   openGraph: {
@@ -19,12 +20,28 @@ export const metadata: Metadata = {
     locale: "en_US",
     siteName: "devvv3",
     url: "https://www.devvv3.com",
+    images: [
+      {
+        url: "https://www.devvv3.com/devvv3.png", // Ajoutez une image OpenGraph
+        width: 1200,
+        height: 630,
+        alt: "devvv3 | Blockchain & Web3 Freelance Developer",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "devvv3 | Blockchain & Web3 Freelance Developer",
     description:
       "Freelance web3 fullstack developer, Ethereum & Solana smart contracts, and decentralized web3 applications.",
+    images: [
+      {
+        url: "https://www.devvv3.com/devvv3.png", // Ajoutez une image OpenGraph
+        width: 1200,
+        height: 630,
+        alt: "devvv3 | Blockchain & Web3 Freelance Developer",
+      },
+    ],
   },
   robots: {
     index: true,
