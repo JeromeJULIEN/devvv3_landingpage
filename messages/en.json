@@ -71,13 +71,13 @@
   "projects": {
     "rogala-art": {
       "name": "RogalaGallery.art",
-      "description": "Art gallery and minting website",
+      "description": "Art gallery and NFT minting website",
       "detail1": "A fully customized art gallery and minting website developed for Miroslaw Rogala, a Polish artist, pionner in the field of digital art in early 80's.",
       "detail2": "Based on ethereum blockchain and ERC721 standard, the website allows collectors to visit the gallery, buy and mint artworks, browse their artworks, and download invoices."
     },
     "fc-shiba": {
       "name": "Fc Shiba",
-      "description": "Football reinvented with web3",
+      "description": "Football reinvented with web3 and NFT membership cards",
       "detail1": "Your 1st step in Decentralized Football. Owned the Club, make decisions, get rewarded, wear your colors proudly, enjoy events & experiences, fund social & charity, spread common values, reshape Football.",
       "detail2": "The project is launched on the Shiba blockchain with the sale of the first collection of NFTs of club members. I developed the entire mint site and smart contracts."
     },

@@ -2,6 +2,9 @@
 import projects from "../../data/projectData";
 import Image from "next/image";
 import { useTranslations, useLocale } from "next-intl";
+import { useState } from "react";
+import FullScreenImage from "../../components/FullScreenImage";
+import { StaticImageData } from "next/image";
 
 type Props = {
   params: {
@@ -13,6 +16,11 @@ const ProjectPage = (props: Props) => {
   const locale = useLocale();
   const t = useTranslations("projects");
   const project = projects.find((p) => p.slug === props.params.projectName);
+
+  const [isShowFullScreen, setIsShowFullScreen] = useState(false);
+  const [selectedImage, setSelectedImage] = useState<StaticImageData | null>(
+    null
+  );
 
   if (!project) {
     return (
@@ -34,13 +42,24 @@ const ProjectPage = (props: Props) => {
         <Image
           src={project.image}
           alt={`${project.name} main image`}
-          className="w-full md:w-1/4 object-contain"
+          className="w-full md:w-1/4 object-contain cursor-pointer"
+          onClick={() => {
+            setSelectedImage(project.image);
+            setIsShowFullScreen(true);
+          }}
         />
-        {project.secondImage !== undefined && (
+
+        {project.secondImage && (
           <Image
             src={project.secondImage}
             alt={`${project.name} second image`}
-            className="w-full md:w-1/4 object-contain"
+            className="w-full md:w-1/4 object-contain cursor-pointer"
+            onClick={() => {
+              if (project.secondImage) {
+                setSelectedImage(project.secondImage);
+                setIsShowFullScreen(true);
+              }
+            }}
           />
         )}
 
@@ -76,6 +95,13 @@ const ProjectPage = (props: Props) => {
           )}
         </section>
       </div>
+      {/* full screen image */}
+      {isShowFullScreen && (
+        <FullScreenImage
+          src={selectedImage}
+          closeFullScreen={() => setIsShowFullScreen(false)}
+        />
+      )}
     </div>
   );
 };
